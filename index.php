@@ -70,13 +70,13 @@
 		</div>
 		<div id="portals" class="floatingIcon">
 			<a href="portals.php"><img src="http://dev.eclipse.org/huge_icons/apps/preferences-system-network-proxy.png"></a><br/>
-			<a class="heading" href="portals.php">Portals</a>
+			<a class="heading" href="/community/portals.php">Portals</a>
 			<p class="subText">Community sites and blogs<br/> around the web.</p>
 		</div>
 		<div id="training" class="floatingIcon">
 			<a href=""><img src="http://dev.eclipse.org/huge_icons/mimetypes/x-office-presentation.png"></a><br/>
 			<a class="heading">Training</a>
-			<p class="subText"><a href="books/">Books</a>, <a href="training.php">Online Courses</a>, <a href="http://live.eclipse.org">Webinars</a> and <a href="/resources/?sort=date&category=Tutorial">Tutorials</a>.</p>
+			<p class="subText"><a href="/community/books/">Books</a>, <a href="/community/training.php">Online Courses</a>, <a href="http://live.eclipse.org">Webinars</a> and <a href="/resources/?sort=date&category=Tutorial">Tutorials</a>.</p>
 		</div>
 		<!-- <div id="consulting" class="floatingIcon">
 			<a href="http://www.eclipseplugincentral.com/Services-index-req-viewcatlink-cid-1.html"><img src="http://dev.eclipse.org/huge_icons/categories/applications-development.png"></a><br/>
