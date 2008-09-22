@@ -4,7 +4,7 @@
 }
 
 #help {
-	height:350px;
+	height:385px;
 }
 
 
@@ -105,84 +105,34 @@
 
 /* Floating Icons Layout */
 
-#users {
-	top:120px;
-	left:-20px;	
-}
-
 #project {
 	top:200px;
-	left:140px;
-}
-
-#rcp {
-	top:370px;
-	left:380px;
-}
-
-#training {
-	top:290px;
-	left:20px;
-}
-
-#resources {
-	top:160px;
-	left:370px;
-}
-
-#events {
-	top:150px;
-	left:640px;
-}
-
-#plugins {
-	top:180px;
-	left:620px;
-}
-
-#consulting {
-	top:265px;
-	left:725px;
+	left:150px;
 }
 
 #portals {
-	top:280px;
-	left:265px;
+	top:200px;
+	left:570px;
+}
+
+#resources {
+	top:150px;
+	left:400px;
+}
+
+#events {
+	top:340px;
+	left:490px;
+}
+
+#training {
+	top:275px;
+	left:290px;
 }
 
 #documentation {
-	top:250px;
-	left:465px;
-}
-
-#toggle {
-	top:115px;
-	left:120px;	
-}
-
-#enterprise {
 	top:390px;
-	left:140px;
-}
-
-#embedded {
-	top:375px;
-	left:370px;
-}
-
-#equinox {
-	top:335px;
-	left:560px;
-}
-
-#frameworks {
-	top:260px;
-	left:735px;
-}
-
-#languages {
-	top:150px;
-	left:835px;
+	left:120px;
 }
 
 /* Swap View Markup */
