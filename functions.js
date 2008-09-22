@@ -14,8 +14,6 @@ function flipAnimation () {
 	var helpStart = function (type, args) {
 		var toggleLink = document.getElementById('toggleLink');
 		var toggleText = document.getElementById('toggleText');
-		toggleLink.innerHTML = "I'm looking for...";
-		toggleText.innerHTML = "I use Eclipse for...";
 		show('categories');			
 
 	}
@@ -25,8 +23,6 @@ function flipAnimation () {
 	var categoriesStart = function (type, args) {
 		var toggleLink = document.getElementById('toggleLink');
 		var toggleText = document.getElementById('toggleText');
-		toggleLink.innerHTML = "I use Eclipse for...";
-		toggleText.innerHTML = "I'm looking for...";
 		show('help');
 	}
 	

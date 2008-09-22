@@ -57,8 +57,8 @@
 			<p class="heading">Users</p>
 		</div>
 		<div id="toggle" class="floatingIcon swap">
-			<p id="toggleText" class="heading"><?if ($cookie == "help") { ?>I'm looking for...<?} else {?>I Use Eclipse for...<?}?></p>
-			Switch to: <a id="toggleLink" onclick="flipAnimation();"><?if ($cookie == "help") { ?>I Use Eclipse for...<?} else {?>I'm looking for...<?}?></a><br/>
+			<a onclick="flipAnimation();"><img src="images/swap.png"></a><br/>	
+			<a class="heading" id="toggleLink" onclick="flipAnimation();">Switch View</a>
 			
 		</div>	
 	</div>		
@@ -66,7 +66,7 @@
 		<div id="events" class="floatingIcon">
 			<a href="events/"><img src="http://dev.eclipse.org/huge_icons/apps/office-calendar.png"></a><br/>
 			<a class="heading" href="events/">Events</a>
-			<p class="subText">Check out a conference or gathering near you.</p>
+			<p class="subText">Check out a conference<br/> or gathering near you.</p>
 		</div>
 		<div id="portals" class="floatingIcon">
 			<a href="portals.php"><img src="http://dev.eclipse.org/huge_icons/apps/preferences-system-network-proxy.png"></a><br/>
@@ -74,9 +74,9 @@
 			<p class="subText">Community sites and blogs<br/> around the web.</p>
 		</div>
 		<div id="training" class="floatingIcon">
-			<a href=""><img src="http://dev.eclipse.org/huge_icons/mimetypes/x-office-presentation.png"></a><br/>
+			<img src="http://dev.eclipse.org/huge_icons/mimetypes/x-office-presentation.png"><br/>
 			<a class="heading">Training</a>
-			<p class="subText"><a href="/community/books/">Books</a>, <a href="/community/training.php">Online Courses</a>, <a href="http://live.eclipse.org">Webinars</a> and <a href="/resources/?sort=date&category=Tutorial">Tutorials</a>.</p>
+			<p class="subText"><a href="/community/books/">Books</a>, <a href="/community/training.php">Online Courses</a>,<br/> <a href="http://live.eclipse.org">Webinars</a> and <a href="/resources/?sort=date&category=Tutorial">Tutorials</a>.</p>
 		</div>
 		<!-- <div id="consulting" class="floatingIcon">
 			<a href="http://www.eclipseplugincentral.com/Services-index-req-viewcatlink-cid-1.html"><img src="http://dev.eclipse.org/huge_icons/categories/applications-development.png"></a><br/>
@@ -86,7 +86,7 @@
 		<div id="resources" class="floatingIcon">
 			<a href="/resources/"><img src="http://dev.eclipse.org/huge_icons/mimetypes/x-office-book.png"></a><br/>
 			<a class="heading" href="/resources/">Resources</a>
-			<p class="subText">Find Eclipse Articles and Resources.</p>
+			<p class="subText">Find Eclipse Articles<br/> and Resources.</p>
 		</div>
 		<!-- <div id="rcp" class="floatingIcon">
 			<a href="rcp.php"><img src="http://dev.eclipse.org/huge_icons/apps/preferences-system-windows.png"></a><br/>
