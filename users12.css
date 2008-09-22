@@ -1,0 +1,197 @@
+/* Main Layout tags */
+#widecontainer {
+	background: transparent url('images/userBG.jpg') top left repeat-x;
+}
+
+#help {
+	height:410px;
+}
+
+#categories {
+}
+
+#left, #middle, #right {
+	width:30%;	
+	float:left;
+	clear:none;	
+}
+
+
+/* Header Box Markup */
+.headerBox {
+	background:transparent url('images/boxHeader.png') top left no-repeat;
+	padding:10px;
+	margin:10px 10px;
+}
+
+.headerBox a.header {
+	color:#333366;
+	font-size:107%;	
+	z-index:12;
+}
+
+.headerBox ul {
+	list-style-type: none;
+	position:relative;
+	top:-30px;
+	clear:both;		
+}
+
+.headerBox ul li {
+	padding-bottom:5px;	
+}
+
+.headerBox .posted {
+	color:#555;
+	font-size:80%;	
+}
+
+.headerBoxIcons {
+	position:relative;
+	float:left;
+	top:-30px;
+	z-index:10;
+	padding-right:5px;
+}
+
+.rssIcon {
+	margin-left:10px;
+}
+
+/* Floating Icons Markup */
+
+.floatingIcon {
+	width:180px;
+	text-align:center;
+	position:absolute;
+	clear:none;
+}
+
+.floatingIcon img {
+	margin:0px;
+	padding:0px;	
+}
+
+.floatingIcon .heading {
+	font-size:120%;
+	margin:0px;
+	padding:0px;
+	color:#28145f;	
+	font-weight:bold;
+}
+
+.floatingIcon p.subText {
+	margin:0px;
+	padding:0px;
+	font-size:80%;	
+}
+
+/* Floating Icons Layout */
+
+#users {
+	top:120px;
+	left:-20px;	
+}
+
+#project {
+	top:200px;
+	left:140px;
+}
+
+#rcp {
+	top:370px;
+	left:380px;
+}
+
+#training {
+	top:290px;
+	left:20px;
+}
+
+#resources {
+	top:150px;
+	left:400px;
+}
+
+#events {
+	top:150px;
+	left:640px;
+}
+
+#plugins {
+	top:180px;
+	left:620px;
+}
+
+#consulting {
+	top:265px;
+	left:725px;
+}
+
+#portals {
+	top:280px;
+	left:265px;
+}
+
+#documentation {
+	top:250px;
+	left:465px;
+}
+
+#toggle {
+	top:115px;
+	left:120px;	
+}
+
+#enterprise {
+	top:390px;
+	left:140px;
+}
+
+#embedded {
+	top:375px;
+	left:370px;
+}
+
+#equinox {
+	top:335px;
+	left:560px;
+}
+
+#frameworks {
+	top:260px;
+	left:735px;
+}
+
+#languages {
+	top:150px;
+	left:835px;
+}
+
+/* Swap View Markup */
+.swap {
+	width:260px !important;
+	text-align:left !important;
+}
+
+#toggleText {
+	font-size:180%;
+	color:#222;	
+}
+
+#toggleLink {
+	color:#636;
+	cursor:pointer;	
+}
+
+.visible {
+	visibility:visible;
+}
+
+.invisible {
+	opacity:0;
+	visibility: hidden;
+}
+
+
+
