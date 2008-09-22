@@ -56,11 +56,6 @@
 			<img src="images/users.png"><br/>
 			<p class="heading">Users</p>
 		</div>
-		<div id="toggle" class="floatingIcon swap">
-			<p id="toggleText" class="heading"><?if ($cookie == "help") { ?>I'm looking for...<?} else {?>I Use Eclipse for...<?}?></p>
-			Switch to: <a id="toggleLink" onclick="flipAnimation();"><?if ($cookie == "help") { ?>I Use Eclipse for...<?} else {?>I'm looking for...<?}?></a><br/>
-			
-		</div>	
 	</div>		
 	<div id="help" <? if ($cookie !="help") echo "class=\"invisible\"";?>>
 		<div id="events" class="floatingIcon">
