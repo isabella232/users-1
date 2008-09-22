@@ -56,11 +56,6 @@
 			<img src="images/users.png"><br/>
 			<p class="heading">Users</p>
 		</div>
-		<div id="toggle" class="floatingIcon swap">
-			<a onclick="flipAnimation();"><img src="images/swap.png"></a><br/>	
-			<a class="heading" id="toggleLink" onclick="flipAnimation();">Switch View</a>
-			
-		</div>	
 	</div>		
 	<div id="help" <? if ($cookie !="help") echo "class=\"invisible\"";?>>
 		<div id="events" class="floatingIcon">

@@ -139,8 +139,8 @@
 }
 
 #toggle {
-	top:115px;
-	left:120px;	
+	top:345px;
+	left:760px;	
 }
 
 #enterprise {
@@ -170,8 +170,6 @@
 
 /* Swap View Markup */
 .swap {
-	width:260px !important;
-	text-align:left !important;
 }
 
 #toggleText {
