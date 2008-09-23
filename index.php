@@ -36,7 +36,7 @@
 	# Paste your HTML content between the EOHTML markers!	
 	require_once ($root . "/community/news/scripts/newsfeeds.php");
 	$communitynews = @ rss_to_news_html($root . "/community/news/2005inthenewsarchive.rss", "news", 6);
-	$epicPlugins = @ rss_to_news_html("/home/data/httpd/writable/community/pluginfeed.rss", "", 7);
+	$epicPlugins = @ rss_to_news_html("/home/data/httpd/writable/community/pluginfeed.rss", "", 6);
 	$eclipseLiveFeed = @ rss_to_news_html("/home/data/httpd/writable/community/eclipselive.rss", "", 6);
 	
 	$cookie = $_COOKIE['userSwap'];
