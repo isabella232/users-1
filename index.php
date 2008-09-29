@@ -64,12 +64,12 @@
 		</div>		
 		<div id="help" <? if ($cookie !="help") echo "class=\"invisible\"";?>>
 			<div id="events" class="floatingIcon">
-				<a href="events/"><img src="http://dev.eclipse.org/huge_icons/apps/office-calendar.png"></a><br/>
-				<a class="heading" href="events/">Events</a>
+				<a href="/community/events/"><img src="http://dev.eclipse.org/huge_icons/apps/office-calendar.png"></a><br/>
+				<a class="heading" href="/community/events/">Events</a>
 				<p class="subText">Check out a conference<br/> or gathering near you.</p>
 			</div>
 			<div id="portals" class="floatingIcon">
-				<a href="portals.php"><img src="http://dev.eclipse.org/huge_icons/apps/preferences-system-network-proxy.png"></a><br/>
+				<a href="/community/portals.php"><img src="http://dev.eclipse.org/huge_icons/apps/preferences-system-network-proxy.png"></a><br/>
 				<a class="heading" href="/community/portals.php">Portals</a>
 				<p class="subText">Community sites and blogs<br/> around the web.</p>
 			</div>
