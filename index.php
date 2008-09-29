@@ -98,8 +98,8 @@
 				<a class="heading" href="/home/categories/enterprise.php">Enterprise Development</a>
 			</div>
 			<div id="embedded" class="floatingIcon">
-				<a href="/home/categories/embedded.php"><img src="http://dev.eclipse.org/custom_icons/embedded64x64.png"></a><br/>
-				<a class="heading" href="/home/categories/embedded.php">Embedded + Device Development</a>
+				<a href="/home/categories/embedded_device.php"><img src="http://dev.eclipse.org/custom_icons/embedded64x64.png"></a><br/>
+				<a class="heading" href="/home/categories/embedded_device.php">Embedded + Device Development</a>
 			</div>
 			<div id="equinox" class="floatingIcon">
 				<a href="/equinox-portal/"><img height="64" width="64" src="images/equinox.png"></a><br/>
