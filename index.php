@@ -163,8 +163,8 @@
 							<a class="heading" href="http://help.eclipse.org/">Documentation</a>
 						</div>					
 						<div id="training" class="pillar">
-							<a href=""><img src="http://dev.eclipse.org/large_icons/mimetypes/x-office-presentation.png"></a>
-							<a class="heading">Training</a>
+							<div style="float:left;margin-right:8px;"><img src="http://dev.eclipse.org/large_icons/mimetypes/x-office-presentation.png"></div>
+							<div style="vertical-align:top;"><a href="/community/books/">Books</a>, <a href="/community/training.php">Online Courses</a>,<br/> <a href="http://live.eclipse.org">Webinars</a> and <a href="/resources/?sort=date&category=Tutorial">Tutorials</a>.</div>
 						</div>
 						<div id="events" class="pillar">
 							<a href="/community/events/"><img src="http://dev.eclipse.org/large_icons/apps/office-calendar.png"></a>
