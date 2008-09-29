@@ -74,7 +74,7 @@
 				<p class="subText">Community sites and blogs<br/> around the web.</p>
 			</div>
 			<div id="training" class="floatingIcon">
-				<a href=""><img src="http://dev.eclipse.org/huge_icons/mimetypes/x-office-presentation.png"></a><br/>
+				<img src="http://dev.eclipse.org/huge_icons/mimetypes/x-office-presentation.png"><br/>
 				<a class="heading">Training</a>
 				<p class="subText"><a href="/community/books/">Books</a>, <a href="/community/training.php">Online Courses</a>, <a href="http://live.eclipse.org">Webinars</a> and <a href="/resources/?sort=date&category=Tutorial">Tutorials</a>.</p>
 			</div>
@@ -119,7 +119,7 @@
 		<div class="left"> 
 			<div class="headerBox">
 				<img class="headerBoxIcons" src="http://dev.eclipse.org/huge_icons/apps/internet-news-reader.png">
-				<a class="header" href="news/eclipseinthenews.php">Community News</a> <a class="rssIcon" href="/home/eclipseinthenews.rss"><img align="bottom" src="http://www.eclipse.org/images/rss2.gif"></a>				
+				<a class="header" href="/community/news/eclipseinthenews.php">Community News</a> <a class="rssIcon" href="/home/eclipseinthenews.rss"><img align="bottom" src="http://www.eclipse.org/images/rss2.gif"></a>				
 				<p><?=$communitynews;?></p>
 			</div>
 		</div>
@@ -132,8 +132,8 @@
 							<a class="heading" href="/home/categories/enterprise.php">Enterprise Development</a>
 						</div>
 						<div id="embedded" class="pillar">
-							<a href="/home/categories/embedded.php"><img width="32" height="32" src="http://dev.eclipse.org/custom_icons/embedded64x64.png"></a>
-							<a class="heading" href="/home/categories/embedded.php">Embedded + Device Development</a>
+							<a href="/home/categories/embedded_device.php"><img width="32" height="32" src="http://dev.eclipse.org/custom_icons/embedded64x64.png"></a>
+							<a class="heading" href="/home/categories/embedded_device.php">Embedded + Device Development</a>
 						</div>
 						<div id="equinox" class="pillar">
 							<a href="/equinox-portal/"><img height="32" width="32" src="images/equinox.png"></a>
@@ -167,11 +167,11 @@
 							<a class="heading">Training</a>
 						</div>
 						<div id="events" class="pillar">
-							<a href="events/"><img src="http://dev.eclipse.org/large_icons/apps/office-calendar.png"></a>
-							<a class="heading" href="events/">Events</a>
+							<a href="/community/events/"><img src="http://dev.eclipse.org/large_icons/apps/office-calendar.png"></a>
+							<a class="heading" href="/community/events/">Events</a>
 						</div>
 						<div id="portals" class="pillar">
-							<a href="portals.php"><img src="http://dev.eclipse.org/large_icons/apps/preferences-system-network-proxy.png"></a>
+							<a href="/community/portals.php"><img src="http://dev.eclipse.org/large_icons/apps/preferences-system-network-proxy.png"></a>
 							<a class="heading" href="/community/portals.php">Portals</a>
 						</div>
 					</div>								
