@@ -86,6 +86,7 @@
 			<div id="project" class="floatingIcon">
 				<a href="/projects/listofprojects.php"><img src="http://dev.eclipse.org/huge_icons/actions/mail-forward.png"></a><br/>
 				<a class="heading" href="/projects/listofprojects.php">Projects</a>
+				<p class="subText"><a href="/mail/">Mailing Lists</a>, <a href="/newsgroups/">Newsgroups</a></p>
 			</div>
 			<div id="documentation" class="floatingIcon">
 				<a href="http://help.eclipse.org/"><img src="http://dev.eclipse.org/huge_icons/apps/help-browser.png"></a><br/>

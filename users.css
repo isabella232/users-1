@@ -24,6 +24,7 @@
 
 .pillar {
 	width:270px;
+	clear:both;
 }
 
 .pillar .heading {
@@ -76,6 +77,10 @@
 .headerBox .posted {
 	color:#555;
 	font-size:80%;	
+}
+
+.headerBox p {
+	clear:both;	
 }
 
 .headerBoxIcons {
