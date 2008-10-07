@@ -194,7 +194,9 @@
 				<p><?=$epicPlugins;?></p>
 			</div>
 		</div>		
-
+		<div class="ads" align="center">
+			<a href="http://www.eclipsesummit.org/"><img border="0" src="http://www.eclipsesummit.org/summiteurope2008/image/friends/480x60.jpg" width="480" height="60" alt="Eclipse Summit Europe 2008"/></a><br/><br/>
+		</div>
 	</div>
 </div>
 	<?
