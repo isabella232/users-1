@@ -89,8 +89,8 @@
 				<p class="subText"><a href="/mail/">Mailing Lists</a>, <a href="/newsgroups/">Newsgroups</a></p>
 			</div>
 			<div id="documentation" class="floatingIcon">
-				<a href="http://help.eclipse.org/"><img src="http://dev.eclipse.org/huge_icons/apps/help-browser.png"></a><br/>
-				<a class="heading" href="http://help.eclipse.org/">Documentation</a>
+				<a href="http://www.eclipse.org/documentation/"><img src="http://dev.eclipse.org/huge_icons/apps/help-browser.png"></a><br/>
+				<a class="heading" href="http://www.eclipse.org/documentation/">Documentation</a>
 			</div>
 			<div id="getinvolved" class="floatingIcon">
 				<img src="http://dev.eclipse.org/huge_icons/devices/network-wired.png" align="bottom"><br/>
@@ -169,8 +169,8 @@
 							<div style="vertical-align:top;"><a href="https://bugs.eclipse.org/bugs/">Report Bugs</a>, <a href="http://wiki.eclipse.org/index.php/CVS_Howto">Source Code</a>,<br/><a href="http://www.eclipse.org/epp/download.php">Nightly Builds</a></div>
 						</div>							
 						<div id="documentation" class="pillar">
-							<a href="http://help.eclipse.org/"><img src="http://dev.eclipse.org/large_icons/apps/help-browser.png"></a>
-							<a class="heading" href="http://help.eclipse.org/">Documentation</a>
+							<a href="http://www.eclipse.org/documentation/"><img src="http://dev.eclipse.org/large_icons/apps/help-browser.png"></a>
+							<a class="heading" href="http://www.eclipse.org/documentation/">Documentation</a>
 						</div>					
 						<div id="training" class="pillar">
 							<div style="float:left;margin-right:8px;"><img src="http://dev.eclipse.org/large_icons/mimetypes/x-office-presentation.png"></div>
