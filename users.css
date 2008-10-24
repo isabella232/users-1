@@ -123,6 +123,11 @@
 	font-size:80%;	
 }
 
+.floatingIcon a:not([href]) {
+	text-decoration:none;
+	cursor:default;	
+}
+
 /* Floating Icons Layout */
 #users {
 	top:120px;
