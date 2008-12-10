@@ -57,10 +57,10 @@
 				<img src="images/users.png"><br/>
 				<p class="heading">Users</p>
 			</div>
-			<div id="toggle" class="floatingIcon swap">
+		<? /*	<div id="toggle" class="floatingIcon swap">
 				<a onclick="flipAnimation();"><img src="images/swap.png"></a><br/>	
 				<a class="heading" id="toggleLink" onclick="flipAnimation();">Switch View</a>
-			</div>			
+			</div>	*/?>
 		</div>		
 		<div id="help" <? if ($cookie !="help") echo "class=\"invisible\"";?>>
 			<div id="events" class="floatingIcon">
@@ -98,7 +98,7 @@
 				<p class="subText"><a href="https://bugs.eclipse.org/bugs/">Report Bugs</a>, <a href="http://wiki.eclipse.org/index.php/CVS_Howto">Source Code</a>,<br/><a href="http://www.eclipse.org/epp/download.php">Nightly Builds</a></p>
 			</div>		
 		</div>
-		<div id="categories" <? if ($cookie !="categories") echo "class=\"invisible\"";?>>
+		<? /*<div id="categories" <? if ($cookie !="categories") echo "class=\"invisible\"";?>>
 			<div id="enterprise" class="floatingIcon">
 				<a href="/home/categories/enterprise.php"><img src="http://dev.eclipse.org/huge_icons/places/network-server.png"></a><br/>
 				<a class="heading" href="/home/categories/enterprise.php">Enterprise Development</a>
@@ -119,7 +119,7 @@
 				<a href="/home/categories/languages.php"><img src="http://dev.eclipse.org/huge_icons/apps/preferences-system-session.png"></a><br/>
 				<a class="heading" href="/home/categories/languages.php">Language IDE</a>
 			</div>								
-		</div>
+		</div> */?>
 	</div>		
 	<div class="bottomContent">
 		<div class="left"> 
@@ -133,28 +133,32 @@
 				<div class="headerBox">	
 					<div id="categoriesList" <? if ($cookie =="categories") echo "class=\"invisible\"";?>>
 						<a class="header">Pillars of Eclipse</a><br/><br/>
+						<div id="equinox" class="pillar">
+							<a href="/home/categories/index.php?category=equinox"><img height="32" width="32" src="images/equinox.png"></a>
+							<a class="heading" href="/home/categories/index.php?category=equinox">Equinox + RCP Runtimes</a>
+						</div>
 						<div id="enterprise" class="pillar">
-							<a href="/home/categories/enterprise.php"><img src="http://dev.eclipse.org/large_icons/places/network-server.png"></a>
-							<a class="heading" href="/home/categories/enterprise.php">Enterprise Development</a>
+							<a href="/home/categories/index.php?category=enterprise"><img src="http://dev.eclipse.org/large_icons/places/network-server.png"></a>
+							<a class="heading" href="/home/categories/index.php?category=enterprise">Enterprise Development</a>
 						</div>
 						<div id="embedded" class="pillar">
-							<a href="/home/categories/embedded_device.php"><img width="32" height="32" src="http://dev.eclipse.org/custom_icons/embedded64x64.png"></a>
-							<a class="heading" href="/home/categories/embedded_device.php">Embedded + Device Development</a>
+							<a href="/home/categories/index.php?category=mobile"><img width="32" height="32" src="http://dev.eclipse.org/custom_icons/embedded64x64.png"></a>
+							<a class="heading" href="/home/categories/index.php?category=mobile">Embedded + Device Development</a>
 						</div>
-						<div id="equinox" class="pillar">
-							<a href="/equinox-portal/"><img height="32" width="32" src="images/equinox.png"></a>
-							<a class="heading" href="/equinox-portal/">RCP + Equinox Runtimes</a>
-						</div>
+						<div id="modeling" class="pillar">
+							<a href="/home/categories/index.php?category=modeling"><img  src="http://dev.eclipse.org/large_icons/apps/preferences-desktop-wallpaper.png"></a>
+							<a class="heading" href="/home/categories/index.php?category=modeling">Modeling</a>
+						</div>	
 						<div id="frameworks" class="pillar">
-							<a href="/home/categories/frameworks.php"><img src="http://dev.eclipse.org/large_icons/categories/applications-system.png"></a>
-							<a class="heading" href="/home/categories/frameworks.php">Application Frameworks</a>
+							<a href="/home/categories/index.php?category=frameworks"><img src="http://dev.eclipse.org/large_icons/categories/applications-system.png"></a>
+							<a class="heading" href="/home/categories/index.php?category=frameworks">Application Frameworks</a>
 						</div>
 						<div id="languages" class="pillar">
-							<a href="/home/categories/languages.php"><img src="http://dev.eclipse.org/large_icons/apps/preferences-system-session.png"></a>
-							<a class="heading" href="/home/categories/languages.php">Language IDE</a>
+							<a href="/home/categories/index.php?category=ide"><img src="http://dev.eclipse.org/large_icons/apps/preferences-system-session.png"></a>
+							<a class="heading" href="/home/categories/index.php?category=ide">Language IDE</a>
 						</div>
 					</div>
-					<div id="helpList" <? if ($cookie =="help") echo "class=\"invisible\"";?>>
+					<?/*<div id="helpList" <? if ($cookie =="help") echo "class=\"invisible\"";?>>
 						<a class="header">Help Topics</a><br/><br/>
 						<div id="project" class="pillar">
 							<a href="/projects/listofprojects.php"><img src="http://dev.eclipse.org/large_icons/actions/mail-forward.png"></a>
@@ -183,7 +187,7 @@
 						<div id="portals" class="pillar">
 							<a href="/community/portals.php"><img src="http://dev.eclipse.org/large_icons/apps/preferences-system-network-proxy.png"></a>
 							<a class="heading" href="/community/portals.php">Portals</a>
-						</div>
+						</div>*/?>
 						
 					</div><br/>							
 				</div>	
