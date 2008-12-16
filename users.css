@@ -137,47 +137,47 @@ img  {
 
 /* Floating Icons Layout */
 #users {
-	top:120px;
+	top:210px;
 	left:-20px;	
 }
 
 #toggle {
-	top:115px;
+	top:205px;
 	left:800px;	
 }
 
 #project {
-	top:200px;
+	top:290px;
 	left:150px;
 }
 
 #portals {
-	top:200px;
+	top:290px;
 	left:570px;
 }
 
 #resources {
-	top:150px;
+	top:240px;
 	left:400px;
 }
 
 #events {
-	top:340px;
+	top:430px;
 	left:490px;
 }
 
 #training {
-	top:275px;
+	top:365px;
 	left:290px;
 }
 
 #documentation {
-	top:390px;
+	top:480px;
 	left:120px;
 }
 
 #getinvolved {
-	top:280px;
+	top:370px;
 	left:20px;
 }
 
