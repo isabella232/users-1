@@ -1,101 +1,15 @@
 /* Main Layout tags */
 #widecontainer {
-	background: transparent url('images/userBG.jpg') top left repeat-x;
+	background: transparent url('images/userBG2.jpg') top left repeat-x;
 }
 
 .topContent {
-	height:385px;
+	position:relative;
+	height:345px;
 }
 
 img  {
-	behavior: url('/eclipse.org-common/themes/Phoenix/iepngfix.htc');	
-}
-
-#help {
-
-}
-
-#categories {
-}
-
-#categoriesList {
-		
-}
-
-#helpList {
-	
-}
-
-.pillar {
-	width:270px;
-	clear:both;
-}
-
-.pillar a img {
-}	
-
-.pillar .heading {
-	padding-left:5px;
-	vertical-align: super;	
-}
-
-.left, .right {
-	width:49%;
-	float:left;
-	clear:none;
-}
-
-#left, #middle, #right {
-	width:30%;	
-	float:left;
-	clear:none;	
-}
-
-.bottomContent {
-	clear:both;
-	width:100%;	
-}
-
-/* Header Box Markup */
-.headerBox {
-	background:transparent url('images/boxHeader.png') top left no-repeat;
-	padding:10px;
-	margin:10px 10px;
-	min-height:50px;
-}
-
-.headerBox a.header {
-	color:#333366;
-	font-size:107%;	
-	z-index:12;
-}
-
-.headerBox ul {
-	list-style-type: none;
-	position:relative;
-	top:-30px;
-	clear:both;		
-}
-
-.headerBox ul li {
-	padding:5px 0px;	
-}
-
-.headerBox .posted {
-	color:#555;
-	font-size:80%;	
-}
-
-.headerBox p {
-	clear:both;	
-}
-
-.headerBoxIcons {
-	position:relative;
-	float:left;
-	top:-30px;
-	z-index:10;
-	padding-right:5px;
+	behavior: url('/eclipse.org-common/themes/Nova/iepngfix.htc');	
 }
 
 .rssIcon {
@@ -117,7 +31,7 @@ img  {
 }
 
 .floatingIcon .heading {
-	font-size:120%;
+	font-size:18px;
 	margin:0px;
 	padding:0px;
 	color:#28145f;	
@@ -127,8 +41,11 @@ img  {
 .floatingIcon p.subText {
 	margin:0px;
 	padding:0px;
-	font-size:80%;	
+	font-size:13px;	
+	line-height:15px;
+	text-align:center;
 }
+
 
 .floatingIcon a:not([href]) {
 	text-decoration:none;
@@ -136,103 +53,38 @@ img  {
 }
 
 /* Floating Icons Layout */
-#users {
-	top:120px;
-	left:-20px;	
-}
-
-#toggle {
-	top:115px;
-	left:800px;	
-}
 
 #project {
-	top:200px;
-	left:150px;
+	top:100px;
+	left:175px;
 }
 
 #portals {
-	top:200px;
-	left:570px;
+	top:125px;
+	left:550px;
 }
 
 #resources {
-	top:150px;
+	top:50px;
 	left:400px;
 }
 
 #events {
-	top:340px;
-	left:490px;
+	top:210px;
+	left:690px;
 }
 
 #training {
-	top:275px;
-	left:290px;
+	top:215px;
+	left:320px;
 }
 
 #documentation {
-	top:390px;
-	left:120px;
+	top:30px;
+	left:720px;
 }
 
 #getinvolved {
-	top:280px;
+	top:180px;
 	left:20px;
 }
-
-#enterprise {
-	top:190px;
-	left:120px;
-}
-
-#embedded {
-	top:140px;
-	left:425px;	
-}
-
-#equinox {
-	top:270px;
-	left:300px;
-}
-
-#frameworks {
-	top:390px;
-	left:120px;
-}
-
-#languages {
-	top:360px;
-	left:475px;
-}
-
-/* Swap View Markup */
-	
-.swap {
-	width:260px !important;
-	text-align:left !important;
-}
-
-#toggleText {
-	font-size:180%;
-	color:#222;	
-}
-
-#toggleLink {
-	color:#636;
-	cursor:pointer;	
-}
-
-.visible {
-	visibility:visible;
-	display: inherit;
-}
-
-.invisible {
-	opacity:0;
-	visibility: hidden;
-	display:none;
-}
-
-
-
