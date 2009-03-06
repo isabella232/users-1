@@ -44,7 +44,7 @@
 			<div id="training" class="floatingIcon">
 				<img src="http://dev.eclipse.org/huge_icons/mimetypes/x-office-presentation.png"><br/>
 				<a class="heading">Training</a>
-				<p class="subText"><a href="/community/books/">Books</a>, <a href="/community/training.php">Online Courses</a>, <a href="http://live.eclipse.org">Webinars</a> and <a href="/resources/?sort=date&category=Tutorial">Tutorials</a>.</p>
+				<p class="subText"><a href="/community/books/">Books</a>, <a href="/community/training.php">Online Courses</a>, <a href="http://wiki.eclipse.org/Training_Schedule">Schedule</a>, <a href="/resources/?sort=date&category=Tutorial">Tutorials</a> and <a href="http://live.eclipse.org">Webinars</a>.</p>
 			</div>
 			<div id="resources" class="floatingIcon">
 				<a href="/resources/"><img src="http://dev.eclipse.org/huge_icons/mimetypes/x-office-book.png"></a><br/>
