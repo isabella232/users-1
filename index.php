@@ -73,6 +73,7 @@
 	$html = ob_get_clean(); 
 	$html = mb_convert_encoding($html, "HTML-ENTITIES", "auto");
 	# Generate the web page
+	$App->Promotion = TRUE;	
 	$App->generatePage("Nova", $Menu, NULL, $pageAuthor, $pageKeywords, $pageTitle, $html);
 ?>
 
