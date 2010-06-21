@@ -67,7 +67,9 @@
 			</div>	
 			<div id="eclipselabs" class="floatingIcon">
 				<a href="http://code.google.com/a/eclipselabs.org/hosting/"><img src="images/labs.png"/></a>
-				<a class="heading" href="http://code.google.com/a/eclipselabs.org/hosting/">Eclipse-related open source projects</a>
+				<p class="subText">
+					<a href="http://code.google.com/a/eclipselabs.org/hosting/">Eclipse-related open source projects</a>
+				</p>
 			</div>	
 		</div>
 	</div>		
