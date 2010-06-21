@@ -66,8 +66,8 @@
 				<p class="subText"><a href="https://bugs.eclipse.org/bugs/">Report Bugs</a>, <a href="http://wiki.eclipse.org/index.php/CVS_Howto">Source Code</a>,<br/><a href="http://www.eclipse.org/epp/download.php">Nightly Builds</a></p>
 			</div>	
 			<div id="eclipselabs" class="floatingIcon">
-				<img src="images/labs.png"/>
-				<a class="heading" href="http://code.google.com/a/eclipselabs.org/hosting/">Eclipse Labs</a>
+				<a href="http://code.google.com/a/eclipselabs.org/hosting/"><img src="images/labs.png"/></a>
+				<a class="heading" href="http://code.google.com/a/eclipselabs.org/hosting/">Eclipse-related open source projects</a>
 			</div>	
 		</div>
 	</div>		
