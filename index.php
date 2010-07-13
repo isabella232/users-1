@@ -49,7 +49,7 @@
 			<div id="resources" class="floatingIcon">
 				<a href="/resources/"><img src="http://dev.eclipse.org/huge_icons/mimetypes/x-office-book.png"></a><br/>
 				<a class="heading" href="/resources/">Resources</a>
-				<p class="subText">Find Eclipse Articles<br/> and Resources.</p>
+				<p class="subText">Find Eclipse <a href="/articles/">Articles</a><br/> and Resources.</p>
 			</div>
 			<div id="project" class="floatingIcon">
 				<a href="/projects/listofprojects.php"><img src="http://dev.eclipse.org/huge_icons/actions/mail-forward.png"></a><br/>
