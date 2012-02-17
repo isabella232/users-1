@@ -40,7 +40,7 @@ html[xmlns] .clearfix {
 	border: 1px solid #e9e4f1;
 	float:left;
 	background-color:rgba(255,2137,255,0.5);
-	height:212px;
+	height:222px;
 	margin: 0 20px 40px 20px;
 	
 }
@@ -95,8 +95,9 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1c0249', end
 }
 
 
-
-
+.v2.bigger li{font-size:13.5px;line-height:20px;}
+.v2.bigger h2{font-size:20px;padding:7px;}
+.v2.bigger .box_user{height: 282px;}
 .v1 #box_user_community ul, .v1 #box_user_involved ul, .v1 #box_user_support ul{margin-left:100px;}
 .v1 #box_user_community .box_icon, .v1 #box_user_support .box_icon{left:13px;right:auto;}
 /*VERSION 2 CODE*/

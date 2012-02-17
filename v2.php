@@ -32,7 +32,7 @@
 <script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f0a6769141fbf14"></script>
 <link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
 <div id="widecontainer">
-	<div class="topContent v2">
+	<div class="topContent v2 <?php if($_GET['size'] == 'bigger'){print 'bigger';}?>">
 
 	
 	
@@ -43,7 +43,7 @@
 				<ul>
 					<li class="box_li_toggle" id="box_li_download"><a href="http://www.eclipse.org/downloads/">Download an Eclipse package</a> <br/> Learn more about Eclipse <a href="http://www.eclipse.org/downloads/compare.php">packages</a>. </li>
 					<li class="box_li_toggle" id="box_li_newcomers"><a href="http://www.eclipse.org/forums/index.php/f/89/">Ask a question in the Newcomers Forums</a></li>
-					<li class="box_li_toggle" id="box_li_books">More Information: <a href="http://www.eclipse.org/resources/?type=book">Books</a>, <a href="http://www.eclipse.org/articles/">Articles</a>, <a href="http://marketplace.eclipse.org/taxonomy/term/34">Training</a>, <a href="http://www.eclipse.org/resources/?sort=date&category=Tutorial">Tutorials</a>, <br/><a href="http://live.eclipse.org/">Webinars</a> &amp; <a href="http://help.eclipse.org/indigo/index.jsp">Documentation</a></li>
+					<li class="box_li_toggle" id="box_li_books">More Information: <a href="http://www.eclipse.org/resources/?type=book">Books</a>, <a href="http://www.eclipse.org/articles/">Articles</a>, <a href="http://marketplace.eclipse.org/taxonomy/term/34">Training</a>, <a href="http://www.eclipse.org/resources/?sort=date&category=Tutorial">Tutorials</a>, <a href="http://live.eclipse.org/">Webinars</a> &amp; <a href="http://help.eclipse.org/indigo/index.jsp">Documentation</a></li>
 				
 					
 				</ul>
