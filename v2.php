@@ -57,9 +57,10 @@
 		<div class="box_content">
 			<ul>
 				<li class="box_li_toggle"><a href="https://dev.eclipse.org/site_login/createaccount.php">Create An Eclipse Account</a><br /> to access our <a href="http://www.eclipse.org/forums">forums</a>, <a href="https://bugs.eclipse.org/bugs">Bugzilla</a>, <a href="http://wiki.eclipse.org">Wiki</a> and other Eclipse sites.</li>
-				<li class="box_li_toggle"><a href="https://bugs.eclipse.org/bugs/enter_bug.cgi">Report Bugs</a></li>
+			
 				<li class="box_li_toggle"><a href="http://help.eclipse.org/indigo/index.jsp">Read the Documentation</a></li>
-				<li class="box_li_toggle"><a href="http://www.eclipse.org/forums/">Ask questions on the Forums</a></li>
+				<li class="box_li_toggle">Frequently asked questions: <a href="http://www.eclipse.org/home/newcomers.php">Newcomer</a> & <a href="http://wiki.eclipse.org/Eclipse_FAQs">Eclipse </a></li>
+				<li class="box_li_toggle"><a href="http://www.eclipse.org/forums/">Ask questions on the forums</a></li>
 				<li class="box_li_toggle"><a href="http://www.eclipse.org/mail/">Follow project mailing lists</a></li>
 			</ul>
 				<div class="box_icon"><a href="http://help.eclipse.org/indigo/index.jsp"><span>Create Account</span><img src="http://dev.eclipse.org/huge_icons/apps/help-browser.png"/></a></div>
@@ -74,8 +75,8 @@
 			<ul>
 				<li class="box_li_toggle"><a href="http://marketplace.eclipse.org/">Discover more Eclipse plugins on Marketplace</a><br/> Find open source and commercial Eclipse plugins, tools, and products.</li>			
 				<li class="box_li_toggle" id="box_li_project"><a href="http://www.eclipse.org/projects/">Learn more about Eclipse projects</a></li>
-				<li class="box_li_toggle"><a href="http://code.google.com/a/eclipselabs.org/hosting/">Other open source project on Eclipse Labs</a></li>
-				<li class="box_li_toggle"><a href="http://www.eclipse.org/community/events/">Eclipse related Events</a></li>
+				<li class="box_li_toggle"><a href="http://code.google.com/a/eclipselabs.org/hosting/">Other open source projects on Eclipse Labs</a></li>
+				<li class="box_li_toggle"><a href="http://www.eclipse.org/community/events/">Eclipse related events</a></li>
 				<li class="box_li_toggle"><a href="http://www.eclipse.org/community/portals.php">Developer portals</a></li>
 				
 				
@@ -91,6 +92,7 @@
 		<div class="box_content">			
 			<ul>
 				<li class="box_li_toggle"><a href="http://wiki.eclipse.org/Development_Resources">Development Resources</a></li>
+				<li class="box_li_toggle"><a href="https://bugs.eclipse.org/bugs/enter_bug.cgi">Report Bugs</a></li>
 				<li class="box_li_toggle"><a href="http://wiki.eclipse.org/index.php/CVS_Howto">Source Code</a></li>
 				<li class="box_li_toggle"><a href="http://www.eclipse.org/epp/download.php">Nightly Builds</a></li>
 				<li class="box_li_toggle"><a href="http://www.eclipse.org/forums/">Support Eclipse</a><br />Feel free to donate any amount you'd like. Donations of $35 or more will receive special Friends of Eclipse benefits.</li>
