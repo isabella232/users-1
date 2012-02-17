@@ -37,14 +37,14 @@
 	
 	
 		<div class="box_user box_right clearfix round" id="box_user_newto">		
-			<h2>Getting Started</h2>	
+			<h2>Getting Started with Eclipse</h2>	
 			<div class="box_content">
 			
 				<ul>
-					<li class="box_li_toggle" id="box_li_download"><a href="http://www.eclipse.org/downloads/">Download Eclipse</a> <br/> Learn more about Eclipse <a href="http://www.eclipse.org/downloads/compare.php">packages</a>. </li>
+					<li class="box_li_toggle" id="box_li_download"><a href="http://www.eclipse.org/downloads/">Download an Eclipse package</a> <br/> Learn more about Eclipse <a href="http://www.eclipse.org/downloads/compare.php">packages</a>. </li>
 					<li class="box_li_toggle" id="box_li_newcomers"><a href="http://www.eclipse.org/forums/index.php/f/89/">Ask a question in the Newcomers Forums</a></li>
-					<li class="box_li_toggle" id="box_li_books"><a href="http://www.eclipse.org/resources/?type=book">Books</a>, <a href="http://www.eclipse.org/articles/">Articles</a>, <a href="http://marketplace.eclipse.org/taxonomy/term/34">Training</a>, <a href="http://www.eclipse.org/resources/?sort=date&category=Tutorial">Tutorials</a>, <br/><a href="http://live.eclipse.org/">Webinars</a> &amp; <a href="http://help.eclipse.org/indigo/index.jsp">Documentation</a></li>
-					<li class="box_li_toggle" id="box_li_project"><a href="http://www.eclipse.org/projects/">Learn more about Eclipse Projects</a></li>
+					<li class="box_li_toggle" id="box_li_books">More Information: <a href="http://www.eclipse.org/resources/?type=book">Books</a>, <a href="http://www.eclipse.org/articles/">Articles</a>, <a href="http://marketplace.eclipse.org/taxonomy/term/34">Training</a>, <a href="http://www.eclipse.org/resources/?sort=date&category=Tutorial">Tutorials</a>, <br/><a href="http://live.eclipse.org/">Webinars</a> &amp; <a href="http://help.eclipse.org/indigo/index.jsp">Documentation</a></li>
+				
 					
 				</ul>
 				<div class="box_icon"><a href="http://www.eclipse.org/downloads/"><span>Download</span><img src="http://dev.eclipse.org/huge_icons/actions/document-save.png"/></a></div>
@@ -58,8 +58,9 @@
 			<ul>
 				<li class="box_li_toggle"><a href="https://dev.eclipse.org/site_login/createaccount.php">Create An Eclipse Account</a><br /> to access our <a href="http://www.eclipse.org/forums">forums</a>, <a href="https://bugs.eclipse.org/bugs">Bugzilla</a>, <a href="http://wiki.eclipse.org">Wiki</a> and other Eclipse sites.</li>
 				<li class="box_li_toggle"><a href="https://bugs.eclipse.org/bugs/enter_bug.cgi">Report Bugs</a></li>
-				<li class="box_li_toggle"><a href="http://www.eclipse.org/forums/">Forums</a></li>
-				<li class="box_li_toggle"><a href="http://www.eclipse.org/mail/">Mailing List</a></li>
+				<li class="box_li_toggle"><a href="http://help.eclipse.org/indigo/index.jsp">Read the Documentation</a></li>
+				<li class="box_li_toggle"><a href="http://www.eclipse.org/forums/">Ask questions on the Forums</a></li>
+				<li class="box_li_toggle"><a href="http://www.eclipse.org/mail/">Follow project mailing lists</a></li>
 			</ul>
 				<div class="box_icon"><a href="http://help.eclipse.org/indigo/index.jsp"><span>Create Account</span><img src="http://dev.eclipse.org/huge_icons/apps/help-browser.png"/></a></div>
 			</div>							
@@ -67,14 +68,16 @@
 		
 		
 		<div class="box_user box_right clearfix round" id="box_user_community">
-		<h2>Join Our Community</h2>
+		<h2>More Eclipse Resources</h2>
 		<div class="box_content">
 			
 			<ul>
-				<li class="box_li_toggle"><a href="http://code.google.com/a/eclipselabs.org/hosting/">Eclipse Labs</a></li>
-				<li class="box_li_toggle"><a href="http://www.eclipse.org/community/portals.php">Portal</a></li>
-				<li class="box_li_toggle"><a href="http://www.eclipse.org/community/events/">Events</a></li>
-								<li class="box_li_toggle"><a href="http://marketplace.eclipse.org/">Marketplace</a><br/> Find open source and commercial Eclipse plugins, tools, and products.</li>
+				<li class="box_li_toggle"><a href="http://marketplace.eclipse.org/">Discover more Eclipse plugins on Marketplace</a><br/> Find open source and commercial Eclipse plugins, tools, and products.</li>			
+				<li class="box_li_toggle" id="box_li_project"><a href="http://www.eclipse.org/projects/">Learn more about Eclipse projects</a></li>
+				<li class="box_li_toggle"><a href="http://code.google.com/a/eclipselabs.org/hosting/">Other open source project on Eclipse Labs</a></li>
+				<li class="box_li_toggle"><a href="http://www.eclipse.org/community/events/">Eclipse related Events</a></li>
+				<li class="box_li_toggle"><a href="http://www.eclipse.org/community/portals.php">Developer portals</a></li>
+				
 				
 			</ul>
 				<div class="box_icon"><a href="http://marketplace.eclipse.org/"><span>Download</span><img src="http://dev.eclipse.org/huge_icons/apps/system-users.png"/></a></div>
