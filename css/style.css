@@ -2,15 +2,17 @@
 
 /*CLASS*/
 .round{	-moz-border-radius: 5px;-webkit-border-radius: 5px;}
-.box_user {background-color:rgba(255,2137,255,0.5);	border: 1px solid #e9e4f1;float:left;height:242px;margin: 0 20px 40px 20px;position: relative;}
+.box_user {background-color:rgba(255,2137,255,0.5);	border: 1px solid #e9e4f1;float:left;height:212px;margin: 0 20px 40px 20px;position: relative;}
 .clear{clear:both;}
-.txt_emphasis{text-transform: uppercase;background:#ffd0fa;padding:3px; text-align:center;margin-bottom:3px;}
+.shadow{-moz-box-shadow: 5px 5px 5px #b8b8b8;
+-webkit-box-shadow:5px 5px 5px #b8b8b8;
+box-shadow: 5px 5px 5px #b8b8b8;}
+.txt_emphasis{text-transform: uppercase;background:#e5d8ff;padding:3px; text-align:center;margin-bottom:3px;}
 .txt_emphasis:hover{background:#77639b;color:#fff; text-decoration: none;}
-.secondary_links{padding:4px 0 0 8px;display:block;}
+.secondary_links{padding:4px 0 0 8px;display:block;font-style: italic;}
 .topContent {background: url("../images/background.jpg") repeat-x scroll left top;padding: 90px 0px 0 21px;position:relative;}
 .addthis_toolbox { position:absolute;right:40px;top:30px;background-color:rgba(255,2137,255,0.5);	border: 1px solid #e9e4f1;padding:6px 8px 1px 8px;	border: 1px solid #e9e4f1;}
 .box_content {padding-right:88px;position:relative;	width: 340px;}
-
 .box_icon {
 	position:absolute;
 	top:40px;
@@ -20,7 +22,7 @@
 	padding:3px;
 }
 
-
+#link_bugs{text-transform: uppercase;}
 .box_user h2 {
 	padding: 5px;
 	background: rgb(28,2,73); /* Old browsers */
