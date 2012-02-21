@@ -2,13 +2,24 @@
 
 /*CLASS*/
 .round{	-moz-border-radius: 5px;-webkit-border-radius: 5px;}
-.box_user {background-color:rgba(255,2137,255,0.5);	border: 1px solid #e9e4f1;float:left;height:222px;margin: 0 20px 40px 20px;position: relative;}
+.box_user {background-color:rgba(255,2137,255,0.5);	border: 1px solid #e9e4f1;float:left;height:242px;margin: 0 20px 40px 20px;position: relative;}
 .clear{clear:both;}
 .txt_emphasis{text-transform: uppercase;background:#ffd0fa;padding:3px; text-align:center;margin-bottom:3px;}
 .txt_emphasis:hover{background:#77639b;color:#fff; text-decoration: none;}
 .secondary_links{padding:4px 0 0 8px;display:block;}
 .topContent {background: url("../images/background.jpg") repeat-x scroll left top;padding: 90px 0px 0 21px;position:relative;}
 .addthis_toolbox { position:absolute;right:40px;top:30px;background-color:rgba(255,2137,255,0.5);	border: 1px solid #e9e4f1;padding:6px 8px 1px 8px;	border: 1px solid #e9e4f1;}
+.box_content {padding-right:88px;position:relative;	width: 340px;}
+
+.box_icon {
+	position:absolute;
+	top:40px;
+	right:13px;
+	background-color:rgba(255,2137,255,0.1);
+	border:1px solid #e4e4ee;
+	padding:3px;
+}
+
 
 .box_user h2 {
 	padding: 5px;
@@ -23,18 +34,10 @@
 	color:#fff;	
 }
 
-.box_content {padding-right:88px;position:relative;	width: 340px;}
+
 #novaContent .box_content ul {margin-bottom: 8px;}
 #novaContent .box_content ul li {margin-left:25px;}
 
-.box_icon {
-	position:absolute;
-	top:40px;
-	right:13px;
-	background-color:rgba(255,2137,255,0.1);
-	border:1px solid #e4e4ee;
-	padding:3px;
-}
 
 
 #box_user_newto{background:url("../images/bg_box2_01.jpg") #fff bottom no-repeat;}

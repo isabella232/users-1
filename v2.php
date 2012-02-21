@@ -64,6 +64,7 @@
 				<li class="box_li_toggle">Frequently asked questions: <a href="http://www.eclipse.org/home/newcomers.php">Newcomer</a> & <a href="http://wiki.eclipse.org/Eclipse_FAQs">Eclipse </a></li>
 				<li class="box_li_toggle"><a href="http://www.eclipse.org/forums/">Ask questions on the forums</a></li>
 				<li class="box_li_toggle"><a href="http://www.eclipse.org/mail/">Follow project mailing lists</a></li>
+				<li class="box_li_toggle">Learn how to  : <a href="http://wiki.eclipse.org/FAQ_How_do_I_upgrade_Eclipse%3F">upgrade Eclipse</a> &amp; <a href="http://marketplace.eclipse.org/content/drag-install-now-available-eclipse-marketplace">drag to install on Eclipse Marketplace</a></li>
 			</ul>
 				<div class="box_icon"><a href="http://help.eclipse.org/indigo/index.jsp"><span>Create Account</span><img src="http://dev.eclipse.org/huge_icons/apps/help-browser.png"/></a></div>
 			</div>							
