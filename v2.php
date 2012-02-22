@@ -4,10 +4,10 @@
 	#
 	# index.php (/users)
 	#
-	# Author: 		Nathan Gervais
-	# Date:			2008-09-04
+	# Author: 		Christopher Guindon
+	# Date:			2012-02-22
 	#
-	# Description: Community Landing Page
+	# Description: User Landing Page
 	#
 	#
 	#****************************************************************************
@@ -15,7 +15,7 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Eclipse Users";
-	$pageKeywords	= "eclipse resources, courses, books, events, plug-ins";
+	$pageKeywords	= "eclipse resources, courses, books, events, plug-ins, Getting Started with Eclipse, help eclipse, eclipse documentation links, Get Involved with Eclipse";
 	$pageAuthor		= "Nathan Gervais";
 	
 	# End: page-specific settings
@@ -102,9 +102,6 @@
 		</div> <!-- /end #box_user_involved -->
 				
 	<div class="clear"></div>
-
-
-
 		
 	</div>		<!-- /end topContent -->
 </div><!-- /end widecontainer -->
