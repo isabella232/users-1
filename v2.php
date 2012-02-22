@@ -63,7 +63,7 @@
 				<li class="box_li_toggle"><a href="https://dev.eclipse.org/site_login/createaccount.php">Create An Eclipse Account</a><span class="secondary_links"> to access our <a href="http://www.eclipse.org/forums">forums</a>, <a href="https://bugs.eclipse.org/bugs">Bugzilla</a>, <a href="http://wiki.eclipse.org">Wiki</a> and other Eclipse sites.</span></li>			
 				<li class="box_li_toggle" id="box_li_newcomers"><a href="http://www.eclipse.org/forums/index.php/f/89/">Ask a question in the Newcomers Forums</a></li>
 				<li class="box_li_toggle">Frequently asked questions: <a href="http://www.eclipse.org/home/newcomers.php">Newcomer</a> & <a href="http://wiki.eclipse.org/Eclipse_FAQs">Eclipse </a></li>
-				<li class="box_li_toggle"><a href="http://www.eclipse.org/forums/">Ask questions on the forums</a></li>
+				
 				<li class="box_li_toggle"><a href="http://www.eclipse.org/mail/">Follow project mailing lists</a></li>
 			</ul>
 				<div class="box_icon"><img src="http://dev.eclipse.org/huge_icons/apps/help-browser.png" alt="Help"/></div>
