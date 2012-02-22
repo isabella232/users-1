@@ -4,10 +4,10 @@
 	#
 	# index.php (/users)
 	#
-	# Author: 		Nathan Gervais
-	# Date:			2008-09-04
+	# Author: 		Christopher Guindon
+	# Date:			2012-02-22
 	#
-	# Description: Community Landing Page
+	# Description: User Landing Page
 	#
 	#
 	#****************************************************************************
@@ -15,8 +15,8 @@
 	#
 	# Begin: page-specific settings.  Change these. 
 	$pageTitle 		= "Eclipse Users";
-	$pageKeywords	= "eclipse resources, courses, books, events, plug-ins";
-	$pageAuthor		= "Nathan Gervais";
+	$pageKeywords	= "eclipse resources, courses, books, events, plug-ins, Getting Started with Eclipse, help eclipse, eclipse documentation links, Get Involved with Eclipse, support eclipse";
+	$pageAuthor		= "Christopher Guindon";
 	
 	# End: page-specific settings
 	#
@@ -24,57 +24,87 @@
 	# Paste your HTML content between the EOHTML markers!	
 
 	ob_start();
+	
+	
 	?>
-<script type="text/javascript" src="http://yui.yahooapis.com/combo?2.5.2/build/yahoo/yahoo-min.js&2.5.2/build/dom/dom-min.js&2.5.2/build/event/event-min.js&2.5.2/build/dragdrop/dragdrop-min.js&2.5.2/build/animation/animation-min.js&2.5.2/build/connection/connection-min.js&2.5.2/build/container/container-min.js"></script>
-<script type="text/javascript" src="functions.js"></script>
-<link rel="stylesheet" type="text/css" href="users.css" media="screen" />
+	
+	
+<script type="text/javascript" src="http://s7.addthis.com/js/250/addthis_widget.js#pubid=ra-4f0a6769141fbf14"></script>
+<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />
+
 <div id="widecontainer">
 	<div class="topContent">
-		<div id="help">
-			<div id="events" class="floatingIcon">
-				<a href="/community/events/"><img src="http://dev.eclipse.org/huge_icons/apps/office-calendar.png"></a><br/>
-				<a class="heading" href="/community/events/">Events</a>
-				<p class="subText">Check out a conference<br/> or gathering near you.</p>
-			</div>
-			<div id="portals" class="floatingIcon">
-				<a href="/community/portals.php"><img src="http://dev.eclipse.org/huge_icons/apps/preferences-system-network-proxy.png"></a><br/>
-				<a class="heading" href="/community/portals.php">Portals</a>
-				<p class="subText">Community sites and blogs<br/> around the web.</p>
-			</div>
-			<div id="training" class="floatingIcon">
-				<img src="http://dev.eclipse.org/huge_icons/mimetypes/x-office-presentation.png"><br/>
-				<a class="heading">Training</a>
-				<p class="subText"><a href="/community/books/">Books</a>, <a href="http://marketplace.eclipse.org/taxonomy/term/34">Training</a>, <a href="http://wiki.eclipse.org/Training_Schedule">Schedule</a>, <a href="/resources/?sort=date&category=Tutorial">Tutorials</a> and <a href="http://live.eclipse.org">Webinars</a>.</p>
-			</div>
-			<div id="resources" class="floatingIcon">
-				<a href="/resources/"><img src="http://dev.eclipse.org/huge_icons/mimetypes/x-office-book.png"></a><br/>
-				<a class="heading" href="/resources/">Resources</a>
-				<p class="subText">Find Eclipse <a href="/articles/">Articles</a><br/> and Resources.</p>
-			</div>
-			<div id="project" class="floatingIcon">
-				<a href="/projects/listofprojects.php"><img src="http://dev.eclipse.org/huge_icons/actions/mail-forward.png"></a><br/>
-				<a class="heading" href="/projects/listofprojects.php">Projects</a>
-				<p class="subText"><a href="/mail/">Mailing Lists</a>, <a href="/forums/">Forums</a></p>
-			</div>
-			<div id="documentation" class="floatingIcon">
-				<a href="http://www.eclipse.org/documentation/"><img src="http://dev.eclipse.org/huge_icons/apps/help-browser.png"></a><br/>
-				<a class="heading" href="http://www.eclipse.org/documentation/">Documentation</a>
-			</div>
-			<div id="getinvolved" class="floatingIcon">
-				<img src="http://dev.eclipse.org/huge_icons/devices/network-wired.png" align="bottom"><br/>
-				<a class="heading">Get Involved</a>
-				<p class="subText"><a href="https://bugs.eclipse.org/bugs/">Report Bugs</a>, <a href="http://wiki.eclipse.org/index.php/CVS_Howto">Source Code</a>,<br/><a href="http://www.eclipse.org/epp/download.php">Nightly Builds</a></p>
-			</div>	
-			<div id="eclipselabs" class="floatingIcon">
-				<a href="http://code.google.com/a/eclipselabs.org/hosting/"><img src="images/labs.png"/></a>
-				<p class="subText">
-					<a href="http://code.google.com/a/eclipselabs.org/hosting/">Eclipse-related open source projects</a>
-				</p>
-			</div>	
+		<!-- AddThis Button BEGIN -->
+		<div class="addthis_toolbox addthis_default_style round">
+			<a class="addthis_button_facebook_like" fb:like:layout="button_count"></a>
+			<a class="addthis_button_tweet"></a>
+			<a class="addthis_button_google_plusone" g:plusone:size="medium"></a>
+			<a class="addthis_counter addthis_pill_style"></a>
 		</div>
-	</div>		
-
-</div>
+		<!-- AddThis Button END -->		
+		<div class="box_user box_right round shadow" id="box_user_newto">		
+			<h2>Getting Started with Eclipse</h2>	
+			<div class="box_content">			
+				<ul>
+					<li class="box_li_toggle" id="box_li_download"><a href="http://www.eclipse.org/downloads/" class="txt_emphasis round">Download an Eclipse package</a> <span class="secondary_links">Learn more about Eclipse <a href="http://www.eclipse.org/downloads/compare.php">packages</a>. </span></li>
+					<li class="box_li_toggle"><a href="http://help.eclipse.org/indigo/index.jsp">Read the Documentation</a></li>
+					<li class="box_li_toggle">Learn how to <a href="http://wiki.eclipse.org/FAQ_How_do_I_upgrade_Eclipse%3F">upgrade Eclipse</a> &amp; <a href="http://marketplace.eclipse.org/content/drag-install-now-available-eclipse-marketplace">drag to install on Eclipse Marketplace</a></li>
+					<li class="box_li_toggle" id="box_li_books">More Information: <span class="secondary_links"><a href="http://www.eclipse.org/resources/?type=book">Books</a>, <a href="http://www.eclipse.org/articles/">Articles</a>, <a href="http://marketplace.eclipse.org/taxonomy/term/34">Training</a>, <a href="http://www.eclipse.org/resources/?sort=date&category=Tutorial">Tutorials</a> &amp; <a href="http://live.eclipse.org/">Webinars</a> </span></li>					
+				</ul>
+				<div class="box_icon"><a href="http://www.eclipse.org/downloads/"><span>Download</span><img src="http://dev.eclipse.org/huge_icons/actions/document-save.png" alt="Download"/></a></div>
+			</div>			
+		</div> <!-- /end #box_user_newto -->
+		
+		
+		<div class="box_user box_left round shadow" id="box_user_support">
+			<h2>Looking For Help?</h2>
+		<div class="box_content">
+			<ul>
+				<li class="box_li_toggle"><a href="https://dev.eclipse.org/site_login/createaccount.php">Create An Eclipse Account</a><span class="secondary_links"> to access our <a href="http://www.eclipse.org/forums">forums</a>, <a href="https://bugs.eclipse.org/bugs">Bugzilla</a>, <a href="http://wiki.eclipse.org">Wiki</a> and other Eclipse sites.</span></li>			
+				<li class="box_li_toggle" id="box_li_newcomers"><a href="http://www.eclipse.org/forums/index.php/f/89/">Ask a question in the Newcomers Forums</a></li>
+				<li class="box_li_toggle">Frequently asked questions: <a href="http://www.eclipse.org/home/newcomers.php">Newcomer</a> & <a href="http://wiki.eclipse.org/Eclipse_FAQs">Eclipse </a></li>
+				
+				<li class="box_li_toggle"><a href="http://www.eclipse.org/mail/">Follow project mailing lists</a></li>
+			</ul>
+				<div class="box_icon"><img src="http://dev.eclipse.org/huge_icons/apps/help-browser.png" alt="Help"/></div>
+			</div>							
+		</div> <!-- /end #box_user_support -->
+		
+		
+		<div class="box_user box_right round shadow" id="box_user_community">
+		<h2>More Eclipse Resources</h2>
+		<div class="box_content">			
+			<ul>
+				<li class="box_li_toggle"><a href="http://marketplace.eclipse.org/">Discover more Eclipse plugins on Marketplace</a><span class="secondary_links">Find open source and commercial Eclipse plugins, tools, and products.</span></li>			
+				<li class="box_li_toggle" id="box_li_project"><a href="http://www.eclipse.org/projects/">Learn more about Eclipse projects</a></li>
+				<li class="box_li_toggle"><a href="http://code.google.com/a/eclipselabs.org/hosting/" target="_blank">Other open source projects on Eclipse Labs</a></li>
+				<li class="box_li_toggle"><a href="http://www.eclipse.org/community/events/">Eclipse related events</a></li>
+				<li class="box_li_toggle"><a href="http://www.eclipse.org/community/portals.php">Developer portals</a></li>								
+			</ul>
+			<div class="box_icon"><img src="http://dev.eclipse.org/huge_icons/apps/system-users.png" alt="Users"/></div>			
+			</div>			
+		</div> <!-- /end #box_user_community -->
+		
+		
+		<div class="box_user box_left round shadow" id="box_user_involved">
+		<h2>Get Involved</h2>
+		<div class="box_content">			
+			<ul>
+				<li class="box_li_toggle"><a href="http://wiki.eclipse.org/Development_Resources">Development Resources</a></li>
+				<li class="box_li_toggle"><a href="https://bugs.eclipse.org/bugs/enter_bug.cgi" id="link_bugs">Report Bugs</a></li>
+				<!-- <li class="box_li_toggle"><a href="http://wiki.eclipse.org/index.php/CVS_Howto">Source Code</a></li>
+				<li class="box_li_toggle"><a href="http://www.eclipse.org/epp/download.php">Nightly Builds</a></li> -->
+				<li class="box_li_toggle"><a href="http://www.eclipse.org/donate/">Support Eclipse</a> <span class="secondary_links">Feel free to donate any amount you'd like. Donations of $35 or more will receive special Friends of Eclipse benefits.</span></li>
+				<li class="box_li_toggle"><a href="http://wiki.eclipse.org">Update the Wiki</a></li>
+			</ul>
+			<div class="box_icon"><img src="http://dev.eclipse.org/huge_icons/devices/network-wired.png" alt="Network wired"/></div>
+		</div>			
+		</div> <!-- /end #box_user_involved -->
+				
+	<div class="clear"></div>
+		
+	</div>		<!-- /end topContent -->
+</div><!-- /end widecontainer -->
 	<?
 	$html = ob_get_clean(); 
 	$html = mb_convert_encoding($html, "HTML-ENTITIES", "auto");
