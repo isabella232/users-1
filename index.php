@@ -75,7 +75,7 @@
 		<h2>More Eclipse Resources</h2>
 		<div class="box_content">			
 			<ul>
-				<li class="box_li_toggle"><a href="http://marketplace.eclipse.org/">Discover more Eclipse plugins on Marketplace</a><span class="secondary_links">Find open source and commercial Eclipse plugins, tools, and products.</span></li>			
+				<li class="box_li_toggle"><a href="http://marketplace.eclipse.org/">Discover more Eclipse plugins on Marketplace</a></li>			
 				<li class="box_li_toggle" id="box_li_project"><a href="http://www.eclipse.org/projects/">Learn more about Eclipse projects</a></li>
 				<li class="box_li_toggle"><a href="http://code.google.com/a/eclipselabs.org/hosting/" target="_blank">Other open source projects on Eclipse Labs</a></li>
 				<li class="box_li_toggle"><a href="http://www.eclipse.org/community/events/">Eclipse related events</a></li>
