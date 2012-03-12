@@ -49,7 +49,7 @@
 					<li class="box_li_toggle" id="box_li_download"><a href="http://www.eclipse.org/downloads/" class="txt_emphasis round">Download an Eclipse package</a> <span class="secondary_links">Learn more about Eclipse <a href="http://www.eclipse.org/downloads/compare.php">packages</a>. </span></li>
 					<li class="box_li_toggle"><a href="http://help.eclipse.org/indigo/index.jsp">Read the Documentation</a></li>
 					<li class="box_li_toggle">Learn how to <a href="http://wiki.eclipse.org/FAQ_How_do_I_upgrade_Eclipse%3F">upgrade Eclipse</a> &amp; <a href="http://marketplace.eclipse.org/content/drag-install-now-available-eclipse-marketplace">drag to install on Eclipse Marketplace</a></li>
-					<li class="box_li_toggle" id="box_li_books">More Information: <span class="secondary_links"><a href="http://www.eclipse.org/resources/?type=book">Books</a>, <a href="http://www.eclipse.org/articles/">Articles</a>, <a href="http://marketplace.eclipse.org/taxonomy/term/34">Training</a>, <a href="http://www.eclipse.org/resources/?sort=date&category=Tutorial">Tutorials</a> &amp; <a href="http://live.eclipse.org/">Webinars</a> </span></li>					
+					<li class="box_li_toggle" id="box_li_books">More Information: <span class="secondary_links"><a href="http://www.eclipse.org/resources/?type=book">Books</a>, <a href="http://www.eclipse.org/articles/">Articles</a>, <a href="http://www.eclipse.org/resources/?sort=date&category=Tutorial">Tutorials</a> &amp; <a href="http://live.eclipse.org/">Webinars</a> </span></li>					
 				</ul>
 				<div class="box_icon"><a href="http://www.eclipse.org/downloads/"><span>Download</span><img src="http://dev.eclipse.org/huge_icons/actions/document-save.png" alt="Download"/></a></div>
 			</div>			
@@ -79,7 +79,8 @@
 				<li class="box_li_toggle" id="box_li_project"><a href="http://www.eclipse.org/projects/">Learn more about Eclipse projects</a></li>
 				<li class="box_li_toggle"><a href="http://code.google.com/a/eclipselabs.org/hosting/" target="_blank">Other open source projects on Eclipse Labs</a></li>
 				<li class="box_li_toggle"><a href="http://www.eclipse.org/community/events/">Eclipse related events</a></li>
-				<li class="box_li_toggle"><a href="http://www.eclipse.org/community/portals.php">Developer portals</a></li>								
+				<li class="box_li_toggle"><a href="http://www.eclipse.org/community/portals.php">Developer portals</a></li>	
+				<li class="box_li_toggle"><a href="http://marketplace.eclipse.org/taxonomy/term/34">Training & Consulting</a> &amp; <a href="http://wiki.eclipse.org/Training_Schedule">Training Schedule</a></li>						
 			</ul>
 			<div class="box_icon"><img src="http://dev.eclipse.org/huge_icons/apps/system-users.png" alt="Users"/></div>			
 			</div>			
