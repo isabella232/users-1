@@ -70,7 +70,7 @@
 			</div>							
 		</div> <!-- /end #box_user_support -->
 		
-		
+			<div class="clear"></div>
 		<div class="box_user box_right round shadow" id="box_user_community">
 		<h2>More Eclipse Resources</h2>
 		<div class="box_content">			
