@@ -32,12 +32,12 @@
 			<h2>Getting Started with Eclipse</h2>
 			<div class="box_content">
 				<ul>
-					<li class="box_li_toggle" id="box_li_download"><a href="<?php print $protocol;?>://www.eclipse.org/downloads/" class="txt_emphasis round">Download an Eclipse package</a> <span class="secondary_links">Learn more about Eclipse <a href="<?php print $protocol;?>://www.eclipse.org/downloads/compare.php">packages</a>. </span></li>
-					<li class="box_li_toggle"><a href="<?php print $protocol;?>://help.eclipse.org">Read the Documentation</a></li>
-					<li class="box_li_toggle">Learn how to <a href="<?php print $protocol;?>://wiki.eclipse.org/FAQ_How_do_I_upgrade_Eclipse%3F">upgrade Eclipse</a> &amp; <a href="<?php print $protocol;?>://marketplace.eclipse.org/content/drag-install-now-available-eclipse-marketplace">drag to install on Eclipse Marketplace</a></li>
-					<li class="box_li_toggle" id="box_li_books">More Information: <span class="secondary_links"><a href="<?php print $protocol;?>://www.eclipse.org/resources/?type=book">Books</a>, <a href="<?php print $protocol;?>://www.eclipse.org/articles/">Articles</a>, <a href="<?php print $protocol;?>://www.eclipse.org/resources/?sort=date&amp;category=Tutorial">Tutorials</a> &amp; <a href="<?php print $protocol;?>://www.youtube.com/user/EclipseFdn" target="_blank">YouTube Channel</a> </span></li>
+					<li class="box_li_toggle" id="box_li_download"><a href="//www.eclipse.org/downloads/" class="txt_emphasis round">Download an Eclipse package</a> <span class="secondary_links">Learn more about Eclipse <a href="//www.eclipse.org/downloads/compare.php">packages</a>. </span></li>
+					<li class="box_li_toggle"><a href="//help.eclipse.org">Read the Documentation</a></li>
+					<li class="box_li_toggle">Learn how to <a href="//wiki.eclipse.org/FAQ_How_do_I_upgrade_Eclipse%3F">upgrade Eclipse</a> &amp; <a href="//marketplace.eclipse.org/content/drag-install-now-available-eclipse-marketplace">drag to install on Eclipse Marketplace</a></li>
+					<li class="box_li_toggle" id="box_li_books">More Information: <span class="secondary_links"><a href="//www.eclipse.org/resources/?type=book">Books</a>, <a href="//www.eclipse.org/articles/">Articles</a>, <a href="//www.eclipse.org/resources/?sort=date&amp;category=Tutorial">Tutorials</a> &amp; <a href="//www.youtube.com/user/EclipseFdn" target="_blank">YouTube Channel</a> </span></li>
 				</ul>
-				<div class="box_icon"><a href="<?php print $protocol;?>://www.eclipse.org/downloads/"><span>Download</span><img src="<?php print $protocol;?>://dev.eclipse.org/huge_icons/actions/document-save.png" alt="Download"/></a></div>
+				<div class="box_icon"><a href="//www.eclipse.org/downloads/"><span>Download</span><img src="//dev.eclipse.org/huge_icons/actions/document-save.png" alt="Download"/></a></div>
 			</div>
 		</div> <!-- /end #box_user_newto -->
 
@@ -46,13 +46,13 @@
 			<h2>Looking For Help?</h2>
 		<div class="box_content">
 			<ul>
-				<li class="box_li_toggle"><a href="https://dev.eclipse.org/site_login/createaccount.php">Create An Eclipse Account</a><span class="secondary_links"> to access our <a href="<?php print $protocol;?>://www.eclipse.org/forums">forums</a>, <a href="https://bugs.eclipse.org/bugs">Bugzilla</a>, <a href="<?php print $protocol;?>://wiki.eclipse.org">Wiki</a> and other Eclipse sites.</span></li>
-				<li class="box_li_toggle" id="box_li_newcomers"><a href="<?php print $protocol;?>://www.eclipse.org/forums/index.php/f/89/">Ask a question in the Newcomers Forums</a></li>
-				<li class="box_li_toggle">Frequently asked questions: <a href="<?php print $protocol;?>://www.eclipse.org/home/newcomers.php">Newcomer</a> &amp; <a href="<?php print $protocol;?>://wiki.eclipse.org/Eclipse_FAQs">Eclipse </a></li>
+				<li class="box_li_toggle"><a href="https://dev.eclipse.org/site_login/createaccount.php">Create An Eclipse Account</a><span class="secondary_links"> to access our <a href="//www.eclipse.org/forums">forums</a>, <a href="https://bugs.eclipse.org/bugs">Bugzilla</a>, <a href="//wiki.eclipse.org">Wiki</a> and other Eclipse sites.</span></li>
+				<li class="box_li_toggle" id="box_li_newcomers"><a href="//www.eclipse.org/forums/index.php/f/89/">Ask a question in the Newcomers Forums</a></li>
+				<li class="box_li_toggle">Frequently asked questions: <a href="//www.eclipse.org/home/newcomers.php">Newcomer</a> &amp; <a href="//wiki.eclipse.org/Eclipse_FAQs">Eclipse </a></li>
 
-				<li class="box_li_toggle"><a href="<?php print $protocol;?>://www.eclipse.org/mail/">Follow project mailing lists</a></li>
+				<li class="box_li_toggle"><a href="//www.eclipse.org/mail/">Follow project mailing lists</a></li>
 			</ul>
-				<div class="box_icon"><img src="<?php print $protocol;?>://dev.eclipse.org/huge_icons/apps/help-browser.png" alt="Help"/></div>
+				<div class="box_icon"><img src="//dev.eclipse.org/huge_icons/apps/help-browser.png" alt="Help"/></div>
 			</div>
 		</div> <!-- /end #box_user_support -->
 
@@ -61,14 +61,14 @@
 		<h2>More Eclipse Resources</h2>
 		<div class="box_content">
 			<ul>
-				<li class="box_li_toggle"><a href="<?php print $protocol;?>://marketplace.eclipse.org/">Discover more Eclipse plugins on Marketplace</a></li>
-				<li class="box_li_toggle" id="box_li_project"><a href="<?php print $protocol;?>://www.eclipse.org/projects/">Learn more about Eclipse projects</a></li>
-				<li class="box_li_toggle"><a href="<?php print $protocol;?>://code.google.com/a/eclipselabs.org/hosting/" target="_blank">Other open source projects on Eclipse Labs</a></li>
-				<li class="box_li_toggle"><a href="<?php print $protocol;?>://www.eclipse.org/community/events/">Eclipse related events</a></li>
-				<li class="box_li_toggle"><a href="<?php print $protocol;?>://www.eclipse.org/community/portals.php">Developer Portals and User Communities</a></li>
-				<li class="box_li_toggle"><a href="<?php print $protocol;?>://marketplace.eclipse.org/taxonomy/term/34">Training &amp; Consulting</a> &amp; <a href="<?php print $protocol;?>://wiki.eclipse.org/Training_Schedule">Training Schedule</a></li>
+				<li class="box_li_toggle"><a href="//marketplace.eclipse.org/">Discover more Eclipse plugins on Marketplace</a></li>
+				<li class="box_li_toggle" id="box_li_project"><a href="//www.eclipse.org/projects/">Learn more about Eclipse projects</a></li>
+				<li class="box_li_toggle"><a href="//code.google.com/a/eclipselabs.org/hosting/" target="_blank">Other open source projects on Eclipse Labs</a></li>
+				<li class="box_li_toggle"><a href="//www.eclipse.org/community/events/">Eclipse related events</a></li>
+				<li class="box_li_toggle"><a href="//www.eclipse.org/community/portals.php">Developer Portals and User Communities</a></li>
+				<li class="box_li_toggle"><a href="//marketplace.eclipse.org/taxonomy/term/34">Training &amp; Consulting</a> &amp; <a href="//wiki.eclipse.org/Training_Schedule">Training Schedule</a></li>
 			</ul>
-			<div class="box_icon"><img src="<?php print $protocol;?>://dev.eclipse.org/huge_icons/apps/system-users.png" alt="Users"/></div>
+			<div class="box_icon"><img src="//dev.eclipse.org/huge_icons/apps/system-users.png" alt="Users"/></div>
 			</div>
 		</div> <!-- /end #box_user_community -->
 
@@ -77,14 +77,14 @@
 		<h2>Get Involved</h2>
 		<div class="box_content">
 			<ul>
-				<li class="box_li_toggle"><a href="<?php print $protocol;?>://wiki.eclipse.org/Development_Resources">Development Resources</a></li>
+				<li class="box_li_toggle"><a href="//wiki.eclipse.org/Development_Resources">Development Resources</a></li>
 				<li class="box_li_toggle"><a href="https://bugs.eclipse.org/bugs/enter_bug.cgi" id="link_bugs">Report Bugs</a></li>
-				<!-- <li class="box_li_toggle"><a href="<?php print $protocol;?>://wiki.eclipse.org/index.php/CVS_Howto">Source Code</a></li>
-				<li class="box_li_toggle"><a href="<?php print $protocol;?>://www.eclipse.org/epp/download.php">Nightly Builds</a></li> -->
-				<li class="box_li_toggle"><a href="<?php print $protocol;?>://www.eclipse.org/donate/">Support Eclipse</a> <span class="secondary_links">Feel free to donate any amount you'd like. Donations of $35 or more will receive special Friends of Eclipse benefits.</span></li>
-				<li class="box_li_toggle"><a href="<?php print $protocol;?>://wiki.eclipse.org">Update the Wiki</a></li>
+				<!-- <li class="box_li_toggle"><a href="//wiki.eclipse.org/index.php/CVS_Howto">Source Code</a></li>
+				<li class="box_li_toggle"><a href="//www.eclipse.org/epp/download.php">Nightly Builds</a></li> -->
+				<li class="box_li_toggle"><a href="//www.eclipse.org/donate/">Support Eclipse</a> <span class="secondary_links">Feel free to donate any amount you'd like. Donations of $35 or more will receive special Friends of Eclipse benefits.</span></li>
+				<li class="box_li_toggle"><a href="//wiki.eclipse.org">Update the Wiki</a></li>
 			</ul>
-			<div class="box_icon"><img src="<?php print $protocol;?>://dev.eclipse.org/huge_icons/devices/network-wired.png" alt="Network wired"/></div>
+			<div class="box_icon"><img src="//dev.eclipse.org/huge_icons/devices/network-wired.png" alt="Network wired"/></div>
 		</div>
 		</div> <!-- /end #box_user_involved -->
 
