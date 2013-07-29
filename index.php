@@ -15,8 +15,6 @@
 	$pageTitle 		= "Getting Started with Eclipse";
 	$pageKeywords	= "eclipse resources, courses, books, events, plug-ins, Getting Started with Eclipse, help eclipse, eclipse documentation links, Get Involved with Eclipse, support eclipse";
 	$pageAuthor		= "Christopher Guindon";
-	$protocol = $App->getHTTPPrefix();
-
 	$root = $_SERVER['DOCUMENT_ROOT'];
 	ob_start();
 	?>
