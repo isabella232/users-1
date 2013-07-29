@@ -32,17 +32,10 @@
 			<h2>Getting Started with Eclipse</h2>
 			<div class="box_content">
 				<ul>
-<<<<<<< HEAD
 					<li class="box_li_toggle" id="box_li_download"><a href="<?php print $protocol;?>://www.eclipse.org/downloads/" class="txt_emphasis round">Download an Eclipse package</a> <span class="secondary_links">Learn more about Eclipse <a href="<?php print $protocol;?>://www.eclipse.org/downloads/compare.php">packages</a>. </span></li>
-					<li class="box_li_toggle"><a href="<?php print $protocol;?>://help.eclipse.org/juno/index.jsp">Read the Documentation</a></li>
+					<li class="box_li_toggle"><a href="<?php print $protocol;?>://help.eclipse.org">Read the Documentation</a></li>
 					<li class="box_li_toggle">Learn how to <a href="<?php print $protocol;?>://wiki.eclipse.org/FAQ_How_do_I_upgrade_Eclipse%3F">upgrade Eclipse</a> &amp; <a href="<?php print $protocol;?>://marketplace.eclipse.org/content/drag-install-now-available-eclipse-marketplace">drag to install on Eclipse Marketplace</a></li>
 					<li class="box_li_toggle" id="box_li_books">More Information: <span class="secondary_links"><a href="<?php print $protocol;?>://www.eclipse.org/resources/?type=book">Books</a>, <a href="<?php print $protocol;?>://www.eclipse.org/articles/">Articles</a>, <a href="<?php print $protocol;?>://www.eclipse.org/resources/?sort=date&amp;category=Tutorial">Tutorials</a> &amp; <a href="<?php print $protocol;?>://www.youtube.com/user/EclipseFdn" target="_blank">YouTube Channel</a> </span></li>
-=======
-					<li class="box_li_toggle" id="box_li_download"><a href="http://www.eclipse.org/downloads/" class="txt_emphasis round">Download an Eclipse package</a> <span class="secondary_links">Learn more about Eclipse <a href="http://www.eclipse.org/downloads/compare.php">packages</a>. </span></li>
-					<li class="box_li_toggle"><a href="http://help.eclipse.org">Read the Documentation</a></li>
-					<li class="box_li_toggle">Learn how to <a href="http://wiki.eclipse.org/FAQ_How_do_I_upgrade_Eclipse%3F">upgrade Eclipse</a> &amp; <a href="http://marketplace.eclipse.org/content/drag-install-now-available-eclipse-marketplace">drag to install on Eclipse Marketplace</a></li>
-					<li class="box_li_toggle" id="box_li_books">More Information: <span class="secondary_links"><a href="http://www.eclipse.org/resources/?type=book">Books</a>, <a href="http://www.eclipse.org/articles/">Articles</a>, <a href="http://www.eclipse.org/resources/?sort=date&amp;category=Tutorial">Tutorials</a> &amp; <a href="http://www.youtube.com/user/EclipseFdn" target="_blank">YouTube Channel</a> </span></li>					
->>>>>>> branch 'master' of ssh://git.eclipse.org/gitroot/www.eclipse.org/users.git
 				</ul>
 				<div class="box_icon"><a href="<?php print $protocol;?>://www.eclipse.org/downloads/"><span>Download</span><img src="<?php print $protocol;?>://dev.eclipse.org/huge_icons/actions/document-save.png" alt="Download"/></a></div>
 			</div>
