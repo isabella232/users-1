@@ -62,7 +62,7 @@
 				<li class="box_li_toggle"><a href="//marketplace.eclipse.org/">Discover more Eclipse plugins on Marketplace</a></li>
 				<li class="box_li_toggle" id="box_li_project"><a href="//www.eclipse.org/projects/">Learn more about Eclipse projects</a></li>
 				<li class="box_li_toggle"><a href="//code.google.com/a/eclipselabs.org/hosting/" target="_blank">Other open source projects on Eclipse Labs</a></li>
-				<li class="box_li_toggle"><a href="//www.eclipse.org/community/events/">Eclipse related events</a></li>
+				<li class="box_li_toggle"><a href="//www.eclipse.org/community/events/">Eclipse Events</a></li>
 				<li class="box_li_toggle"><a href="//www.eclipse.org/community/portals.php">Developer Portals and User Communities</a></li>
 				<li class="box_li_toggle"><a href="//marketplace.eclipse.org/taxonomy/term/34">Training &amp; Consulting</a> &amp; <a href="//wiki.eclipse.org/Training_Schedule">Training Schedule</a></li>
 			</ul>
