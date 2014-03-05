@@ -1,7 +1,7 @@
 <div class="row getting-started">
 
 	<div class="col-md-6">
-		<h1 class="current">Getting Started</h1>
+		<h1 class="current one"><span>Getting Started</span></h1>
 		<p>You can download the standard version of Eclipse that contains the basic bits
 		for any Java developer to start coding in Java.</p>
 		<p><a href="/downloads/" class="btn btn-warning">Download</a></p>
@@ -12,7 +12,7 @@
 	</div>
 
 	<div class="col-md-6">
-		<h1>Extend Eclipse</h1>
+		<h1 class="two"><span>Extend Eclipse</span></h1>
 		<p>Eclipse Marketplace is a great source of plug-ins and products that you can add to your
 		Eclipse installation. Browser the online catalog or even better start-up the Eclipse
 		Marketplace Client from within Eclipse. Look under the Help menu.</p>
@@ -26,23 +26,23 @@
 	</div>
 
 	<div class="col-md-6">
-	  <h1>Documentation</h1>
+	  <h1 class="three"><span>Documentation</span></h1>
 	  <p>Some popular getting started documents for someone new to Eclipse: </p>
 	  <ul>
 	  	<li>Getting Started with the Eclipse Workbench</li>
     	<li>Getting Started with Java development</li>
-    	<li>All online Documentation</li>
+    	<li>All online <a href="http://www.eclipse.org/documentation/">Documentation</a></li>
     </ul>
 
 	</div>
 
 	<div class="col-md-6">
-		<h1>Getting Help</h1>
+		<h1 class="four"><span>Getting Help</span></h1>
 		<ul>
-			<li>There are many online source of help in the Eclipse community. First thing to do is <a href="https://dev.eclipse.org/site_login/createaccount.php">create an account</a> so you can use them.</li>
+			<li> There are many online source of help in the Eclipse community. First thing to do is <a href="https://dev.eclipse.org/site_login/createaccount.php">create an account</a> so you can use them.</li>
     	<li>Our <a href="http://eclipse.org/forums/">forums</a> are great places to ask questions, especially the <a href="http://www.eclipse.org/forums/index.php/f/89/">newcomer forum</a></li>
-    	<li>Open bugs and feature requests at bugzilla</li>
-    	<li>IRC channels are active for some projects</li>
+    	<li>Open bugs and feature requests at <a href="https://bugs.eclipse.org/bugs/">bugzilla</a></li>
+    	<li><a href="http://wiki.eclipse.org/IRC_FAQ">IRC channels</a> are active for some projects</li>
    		</li>Project <a href="http://www.eclipse.org/mail/">mailing list</a> are good source of what is going on in the project</li>
 	</div>
 
