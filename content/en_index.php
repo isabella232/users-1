@@ -29,8 +29,8 @@
 	  <h1 class="three"><span>Documentation</span></h1>
 	  <p>Some popular getting started documents for someone new to Eclipse: </p>
 	  <ul>
-	  	<li>Getting Started with the Eclipse Workbench</li>
-    	<li>Getting Started with Java development</li>
+	  	<li>Getting Started with the <a href="http://help.eclipse.org/kepler/nav/0">Eclipse Workbench</a></li>
+    	<li>Getting Started with <a href="http://help.eclipse.org/kepler/nav/1">Java development</a></li>
     	<li>All online <a href="http://www.eclipse.org/documentation/">Documentation</a></li>
     </ul>
 
