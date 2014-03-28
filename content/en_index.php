@@ -20,7 +20,7 @@
 		<ul>
 		  <li><a href="http://marketplace.eclipse.org/content/subversive-svn-team-provider">Subversive - SVN Team Provider</a></li>
 		  <li><a href="http://marketplace.eclipse.org/content/subclipse">Subclipse</a></li>
-		  <li><a href="http://marketplace.eclipse.org/content/eclipse-color-theme">Eclipse Color Them</a></li>
+		  <li><a href="http://marketplace.eclipse.org/content/eclipse-color-theme">Eclipse Color Theme</a></li>
 		  <li><a href="http://marketplace.eclipse.org/content/maven-integration-eclipse-juno-and-newer">Maven Integration for Eclipse (Juno and newer)</a></li>
 		</ul>
 	</div>
@@ -43,7 +43,7 @@
     	<li>Our <a href="http://eclipse.org/forums/">forums</a> are great places to ask questions, especially the <a href="http://www.eclipse.org/forums/index.php/f/89/">newcomer forum</a></li>
     	<li>Open bugs and feature requests at <a href="https://bugs.eclipse.org/bugs/">bugzilla</a></li>
     	<li><a href="http://wiki.eclipse.org/IRC_FAQ">IRC channels</a> are active for some projects</li>
-   		</li>Project <a href="http://www.eclipse.org/mail/">mailing list</a> are good source of what is going on in the project</li>
+   		<li>Project <a href="http://www.eclipse.org/mail/">mailing list</a> are good source of what is going on in the project</li>
 	</div>
 
 </div>
