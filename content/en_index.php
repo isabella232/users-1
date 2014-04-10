@@ -43,7 +43,7 @@
     	<li>Our <a href="http://eclipse.org/forums/">forums</a> are great places to ask questions, especially the <a href="http://www.eclipse.org/forums/index.php/f/89/">newcomer forum</a></li>
     	<li>Open bugs and feature requests at <a href="https://bugs.eclipse.org/bugs/">bugzilla</a></li>
     	<li><a href="https://wiki.eclipse.org/IRC">IRC channels</a> are active for some projects</li>
-   		<li>Project <a href="http://www.eclipse.org/mail/">mailing list</a> are good source of what is going on in the project</li>
+   		<li>Project <a href="https://dev.eclipse.org/mailman/listinfo">mailing list</a> are good source of what is going on in the project</li>
    	</ul>
 	</div>
 
