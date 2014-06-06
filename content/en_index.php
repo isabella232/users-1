@@ -28,7 +28,7 @@
       <h1>Extend Eclipse</h1>
       <p>Eclipse Marketplace is a great source of plug-ins and product that you can add to Eclipse. 
       Browse the online catalog or use the <a href="//marketplace.eclipse.org">Eclipse Marketplace</a> 
-      Client from within Eclispe. Look under the Eclipse Help Menu.</p>
+      Client from within Eclipse. Look under the Eclipse Help Menu.</p>
 			<p>Popular Plugins: </p>
 			<ul>
 			  <li><a href="http://marketplace.eclipse.org/content/subversive-svn-team-provider">Subversive - SVN Team Provider</a><br/>
