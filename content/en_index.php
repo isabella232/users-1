@@ -33,7 +33,7 @@
 			<ul>
 			  <li><a href="http://marketplace.eclipse.org/content/subversive-svn-team-provider">Subversive - SVN Team Provider</a><br/>
 			    <div class="drag_installbutton">
-				    <a class="drag" href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=27025">
+				    <a class="drag" href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=1139">
 	            <img src="/eclipse.org-common/themes/solstice/public/images/components/drag-drop/installbutton.png"/>
 	            <div class="tooltip"><h3>Drag to Install!</h3>Drag to your running Eclipse workspace.</div>
 	          </a>
