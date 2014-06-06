@@ -27,7 +27,7 @@
       <div class="circle">2</div>
       <h1>Extend Eclipse</h1>
       <p>Eclipse Marketplace is a great source of plug-ins and product that you can add to Eclipse. 
-      Browse the online catalog (add link to MP) or use the Eclipse Marketplace 
+      Browse the online catalog or use the <a href="//marketplace.eclipse.org">Eclipse Marketplace</a> 
       Client from within Eclispe. Look under the Eclipse Help Menu.</p>
 			<p>Popular Plugins: </p>
 			<ul>
