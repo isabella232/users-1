@@ -18,25 +18,53 @@
       <h1 class="fw-600">Getting Started</h1>
       <p>You can download the standard version of Eclipse that contains the basic bits
 			for any Java developer to start coding in Java.</p>
-			<p><a href="/downloads/" class="btn btn-warning">Download</a></p>
+			<p><a href="<?php print $standard['url'];?>" class="btn btn-warning">Download</a></p>
 			<hr/>
-			<p> Eclipse also has pre-defined packages based on the type of development you want to do with Eclipse.
-			Check out what packages we have to offer.</p>
+			<p> Eclipse also has pre-defined packages based on the type of development you want to do with Eclipse.</p>
 			<p><a href="/downloads/" class="btn btn-warning">Download Packages </a></p>
     </div>
     <div class="col-md-6 two  gs-item">
       <div class="circle">2</div>
       <h1>Extend Eclipse</h1>
-      <p>Eclipse Marketplace is a great source of plug-ins and products that you can add to your
-			Eclipse installation. Browse the online catalog or even better start-up the Eclipse
-			Marketplace Client from within Eclipse. Look under the Help menu.</p>
-			<p>Some of the more popular plug-ins for Eclipse include: </p>
+      <p>Eclipse Marketplace is a great source of plug-ins and product that you can add to Eclipse. 
+      Browse the online catalog (add link to MP) or use the Eclipse Marketplace 
+      Client from within Eclispe. Look under the Eclipse Help Menu.</p>
+			<p>Popular Plugins: </p>
 			<ul>
-			  <li><a href="http://marketplace.eclipse.org/content/subversive-svn-team-provider">Subversive - SVN Team Provider</a></li>
-			  <li><a href="http://marketplace.eclipse.org/content/subclipse">Subclipse</a></li>
-			  <li><a href="http://marketplace.eclipse.org/content/eclipse-color-theme">Eclipse Color Theme</a></li>
-			  <li><a href="http://marketplace.eclipse.org/content/maven-integration-eclipse-juno-and-newer">Maven Integration for Eclipse (Juno and newer)</a></li>
+			  <li><a href="http://marketplace.eclipse.org/content/subversive-svn-team-provider">Subversive - SVN Team Provider</a><br/>
+			    <div class="drag_installbutton">
+				    <a class="drag" href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=27025">
+	            <img src="/eclipse.org-common/themes/solstice/public/images/components/drag-drop/installbutton.png"/>
+	            <div class="tooltip"><h3>Drag to Install!</h3>Drag to your running Eclipse workspace.</div>
+	          </a>
+	        </div>
+			  </li>
+			  <li><a href="http://marketplace.eclipse.org/content/eclipse-color-theme">Eclipse Color Theme</a><br/>
+			    <div class="drag_installbutton">
+				    <a class="drag" href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=27025">
+	            <img src="/eclipse.org-common/themes/solstice/public/images/components/drag-drop/installbutton.png"/>
+	            <div class="tooltip"><h3>Drag to Install!</h3>Drag to your running Eclipse workspace.</div>
+	          </a>
+	        </div>
+			  </li>
+			  <li><a href="http://marketplace.eclipse.org/content/maven-integration-eclipse-juno-and-newer">Maven Integration for Eclipse</a><br/>
+			    <div class="drag_installbutton">
+				    <a class="drag" href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=252">
+	            <img src="/eclipse.org-common/themes/solstice/public/images/components/drag-drop/installbutton.png"/>
+	            <div class="tooltip"><h3>Drag to Install!</h3>Drag to your running Eclipse workspace.</div>
+	          </a>
+	        </div>
+			  </li>		  
+			  <li><a href="http://marketplace.eclipse.org/content/pydev-python-ide-eclipse">PyDev</a><br/>
+				  <div class="drag_installbutton">
+				    <a class="drag" href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=114">
+	            <img src="/eclipse.org-common/themes/solstice/public/images/components/drag-drop/installbutton.png"/>
+	            <div class="tooltip"><h3>Drag to Install!</h3>Drag to your running Eclipse workspace.</div>
+	          </a>
+	        </div>
+	      </li>
 			</ul>
+			<p><a href="//marketplace.eclipse.org" class="btn btn-info">Marketplace</a></p>
     </div>
     <div class="col-md-6 three gs-item">
       <div class="circle">3</div>
@@ -45,7 +73,7 @@
 		  <ul>
 		  	<li>Getting Started with the <a href="http://help.eclipse.org/kepler/nav/0">Eclipse Workbench</a></li>
 	    	<li>Getting Started with <a href="http://help.eclipse.org/kepler/nav/1">Java development</a></li>
-	    	<li>All online <a href="http://www.eclipse.org/documentation/">Documentation</a></li>
+	    	<li>All online <a href="http://help.eclipse.org/kepler/index.jsp">Documentation</a></li>
 	    </ul>
 
     </div>

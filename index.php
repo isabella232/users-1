@@ -13,6 +13,8 @@
 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php");
 	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php");
+	
+	require_once($_SERVER['DOCUMENT_ROOT'] . "/downloads/downloads/controller.compare.php");
 
 	$App 	= new App();
 	$Nav	= new Nav();
@@ -22,6 +24,10 @@
 	$pageTitle 		= "Getting Started with Eclipse";
 	$pageKeywords	= "eclipse resources, courses, books, events, plug-ins, Getting Started with Eclipse, help eclipse, eclipse documentation links, Get Involved with Eclipse, support eclipse";
 	$pageAuthor		= "Christopher Guindon";
+	
+	$Packages = new CompareController($App);
+	$Packages->setPrefixPackage('release');
+	$standard = $Packages->getPackages('classic-package');
 
 	// Place your html content in a file called content/en_pagename.php
 	ob_start();
