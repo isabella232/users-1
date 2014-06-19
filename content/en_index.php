@@ -18,7 +18,7 @@
       <h1 class="fw-600">Getting Started</h1>
       <p>You can download the standard version of Eclipse that contains the basic bits
 			for any Java developer to start coding in Java.</p>
-			<p><a href="http://www.eclipse.org/downloads/packages/eclipse-standard-432/keplersr2" class="btn btn-warning">Download</a></p>
+			<p><a href="<?php print $standard['url'];?>" class="btn btn-warning">Download</a></p>
 			<hr/>
 			<p> Eclipse also has pre-defined packages based on the type of development you want to do with Eclipse.</p>
 			<p><a href="/downloads/" class="btn btn-warning">Download Packages </a></p>
@@ -26,8 +26,8 @@
     <div class="col-md-6 two  gs-item">
       <div class="circle">2</div>
       <h1>Extend Eclipse</h1>
-      <p>Eclipse Marketplace is a great source of plug-ins and product that you can add to Eclipse.
-      Browse the online catalog or use the <a href="//marketplace.eclipse.org">Eclipse Marketplace</a>
+      <p>Eclipse Marketplace is a great source of plug-ins and product that you can add to Eclipse. 
+      Browse the online catalog or use the <a href="//marketplace.eclipse.org">Eclipse Marketplace</a> 
       Client from within Eclipse. Look under the Eclipse Help Menu.</p>
 			<p>Popular Plugins: </p>
 			<ul>
@@ -54,7 +54,7 @@
 	            <div class="tooltip"><h3>Drag to Install!</h3>Drag to your running Eclipse workspace.</div>
 	          </a>
 	        </div>
-			  </li>
+			  </li>		  
 			  <li><a href="http://marketplace.eclipse.org/content/pydev-python-ide-eclipse">PyDev</a><br/>
 				  <div class="drag_installbutton">
 				    <a class="drag" href="http://marketplace.eclipse.org/marketplace-client-intro?mpc_install=114">
