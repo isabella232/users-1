@@ -71,9 +71,9 @@
       <h1>Documentation</h1>
       <p>These are a few of the popular getting-started documents for someone new to Eclipse: </p>
 		  <ul>
-		  	<li>Getting Started with the <a href="http://help.eclipse.org/kepler/nav/0">Eclipse Workbench</a></li>
-	    	<li>Getting Started with <a href="http://help.eclipse.org/kepler/nav/1">Java development</a></li>
-	    	<li>All online <a href="http://help.eclipse.org/kepler/index.jsp">Documentation</a></li>
+		  	<li>Getting Started with the <a href="http://help.eclipse.org/luna/nav/0">Eclipse Workbench</a></li>
+	    	<li>Getting Started with <a href="http://help.eclipse.org/luna/nav/1">Java development</a></li>
+	    	<li>All online <a href="http://help.eclipse.org/luna/index.jsp">Documentation</a></li>
 	    </ul>
 
     </div>
@@ -82,12 +82,11 @@
       <h1>Getting Help</h1>
       <ul>
 				<li>There are many online sources of help in the Eclipse community. First thing to do is <a href="https://dev.eclipse.org/site_login/createaccount.php">create an account</a> so you can use them.</li>
-	    	<li>Our <a href="http://eclipse.org/forums/">forums</a> are great places to ask questions, especially the <a href="http://www.eclipse.org/forums/index.php/f/89/">newcomer forum</a>.</li>
-	    	<li>Open bugs and feature requests at <a href="https://bugs.eclipse.org/bugs/">bugzilla</a>.</li>
+	    	<li>Our <a href="https://www.eclipse.org/forums/">forums</a> are great places to ask questions, especially the <a href="http://www.eclipse.org/forums/index.php/f/89/">newcomer forum</a>.</li>
+	    	<li>Open bugs and feature requests in <a href="https://bugs.eclipse.org/bugs/">bugzilla</a>.</li>
 	    	<li><a href="https://wiki.eclipse.org/IRC">IRC channels</a> are active for some projects.</li>
-	   		<li>Project <a href="https://dev.eclipse.org/mailman/listinfo">mailing list</a> are good source of what is going on in the project.</li>
+	   		<li>Project <a href="https://dev.eclipse.org/mailman/listinfo">mailing list</a> are good source of what is going on in the projects.</li>
      	</ul>
     </div>
     </div>
 </div>
-
