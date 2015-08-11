@@ -71,9 +71,9 @@
       <h1>Documentation</h1>
       <p>These are a few of the popular getting-started documents for someone new to Eclipse: </p>
 		  <ul>
-		  	<li>Getting Started with the <a href="http://help.eclipse.org/luna/nav/0">Eclipse Workbench</a></li>
-	    	<li>Getting Started with <a href="http://help.eclipse.org/luna/nav/1">Java development</a></li>
-	    	<li>All online <a href="http://help.eclipse.org/luna/index.jsp">Documentation</a></li>
+		  	<li>Getting Started with the <a href="http://help.eclipse.org/mars/nav/0">Eclipse Workbench</a></li>
+	    	<li>Getting Started with <a href="http://help.eclipse.org/mars/nav/1">Java development</a></li>
+	    	<li>All online <a href="http://help.eclipse.org/mars/index.jsp">Documentation</a></li>
 	    </ul>
 
     </div>

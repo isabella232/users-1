@@ -27,7 +27,7 @@
 
 	$Packages = new CompareController($App);
 	$Packages->setPrefixPackage('release');
-	$standard = $Packages->getPackages('standard-package');
+	$standard = $Packages->getPackages('committers-package');
 
 	// Place your html content in a file called content/en_pagename.php
 	ob_start();
