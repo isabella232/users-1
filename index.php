@@ -10,32 +10,31 @@
  *    Christopher Guindon (Eclipse Foundation) - Initial implementation
  *******************************************************************************/
 
-	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
-	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php");
-	require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php");
+  require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/app.class.php");
+  require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/nav.class.php");
+  require_once($_SERVER['DOCUMENT_ROOT'] . "/eclipse.org-common/system/menu.class.php");
 
-	require_once($_SERVER['DOCUMENT_ROOT'] . "/downloads/downloads/controller.compare.php");
+  require_once($_SERVER['DOCUMENT_ROOT'] . "/downloads/downloads/controller.compare.php");
 
-	$App 	= new App();
-	$Nav	= new Nav();
-	$Menu 	= new Menu();
+  $App   = new App();
+  $Nav  = new Nav();
+  $Menu   = new Menu();
 
-	# Begin: page-specific settings.  Change these.
-	$pageTitle 		= "Getting Started with Eclipse";
-	$pageKeywords	= "eclipse resources, courses, books, events, plug-ins, Getting Started with Eclipse, help eclipse, eclipse documentation links, Get Involved with Eclipse, support eclipse";
-	$pageAuthor		= "Christopher Guindon";
+  # Begin: page-specific settings.  Change these.
+  $pageTitle     = "Getting Started with Eclipse";
+  $pageKeywords  = "eclipse resources, courses, books, events, plug-ins, Getting Started with Eclipse, help eclipse, eclipse documentation links, Get Involved with Eclipse, support eclipse";
+  $pageAuthor    = "Christopher Guindon";
 
-	$Packages = new CompareController($App);
-	$Packages->setPrefixPackage('release');
-	$standard = $Packages->getPackages('java-package');
+  $Packages = new CompareController($App);
+  $Packages->setPrefixPackage('release');
+  $standard = $Packages->getPackages('java-package');
 
-	// Place your html content in a file called content/en_pagename.php
-	ob_start();
-	include("content/en_" . $App->getScriptName());
-	$html = ob_get_clean();
+  // Place your html content in a file called content/en_pagename.php
+  ob_start();
+  include("content/en_" . $App->getScriptName());
+  $html = ob_get_clean();
 
-	# Generate the web page
-	$App->Promotion = TRUE;
-	//$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />');
-	$App->generatePage("solstice", $Menu, NULL, $pageAuthor, $pageKeywords, $pageTitle, $html);
-?>
+  # Generate the web page
+  $App->Promotion = TRUE;
+  //$App->AddExtraHtmlHeader('<link rel="stylesheet" type="text/css" href="css/style.css" media="screen" />');
+  $App->generatePage("solstice", $Menu, NULL, $pageAuthor, $pageKeywords, $pageTitle, $html);
