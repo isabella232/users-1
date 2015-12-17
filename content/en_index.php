@@ -1,6 +1,6 @@
 <?php
 /*******************************************************************************
- * Copyright (c) 2014 Eclipse Foundation and others.
+ * Copyright (c) 2014, 2015 Eclipse Foundation and others.
  * All rights reserved. This program and the accompanying materials
  * are made available under the terms of the Eclipse Public License v1.0
  * which accompanies this distribution, and is available at
@@ -8,16 +8,22 @@
  *
  * Contributors:
  *    Christopher Guindon (Eclipse Foundation) - Initial implementation
+ *    Wayne Beaton (Eclipse Foundation) - Minor changes
  *******************************************************************************/
+
+// Provide as helpful a link as possible into Bugzilla.
+// Assume that the user is concerned with IDE bugs and point them to the EPP product.
+$bugzillaLink = "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=EPP";
+
 ?>
 
 <div class="timeline">
 <div class="row">
     <div class="col-md-6 one gs-item">
       <div class="circle">1</div>
-      <h1 class="fw-600">Getting Started</h1>
+      <h1 class="fw-600">Get Started</h1>
       <p>You can download the standard version of Eclipse that contains the basic bits
-			for any Java developer to start coding in Java.</p>
+			for any Java developer to start coding in Java&trade;.</p>
 			<p><a href="<?php print $standard['url'];?>" class="btn btn-warning">Download</a></p>
 			<hr/>
 			<p> Eclipse also has pre-defined packages based on the type of development you want to do with Eclipse.</p>
@@ -26,9 +32,12 @@
     <div class="col-md-6 two  gs-item">
       <div class="circle">2</div>
       <h1>Extend Eclipse</h1>
-      <p>Eclipse Marketplace is a great source of plug-ins and product that you can add to Eclipse.
-      Browse the online catalog or use the <a href="//marketplace.eclipse.org">Eclipse Marketplace</a>
-      Client from within Eclipse. Look under the Eclipse Help Menu.</p>
+      <p>Eclipse Marketplace is a great source of plug-ins and product that you can add to Eclipse.</p>
+      <ul>
+      <li>Browse the <a href="//marketplace.eclipse.org">online catalog</a></li>
+      <li>Use the Eclipse Marketplace
+      Client from within Eclipse: <code>Help&nbsp;&gt;&nbsp;Eclipse Marketplace&hellip;</code></li>
+      </ul>
 			<p>Popular Plugins: </p>
 			<ul>
 			  <li><a href="http://marketplace.eclipse.org/content/subversive-svn-team-provider">Subversive - SVN Team Provider</a><br/>
@@ -68,24 +77,26 @@
     </div>
     <div class="col-md-6 three gs-item">
       <div class="circle">3</div>
-      <h1>Documentation</h1>
-      <p>These are a few of the popular getting-started documents for someone new to Eclipse: </p>
+      <h1>Read Doc</h1>
+      <p>Documentation is a great resource to get you started with Eclipse.</p>
 		  <ul>
 		  	<li>Getting Started with the <a href="http://help.eclipse.org/mars/nav/0">Eclipse Workbench</a></li>
 	    	<li>Getting Started with <a href="http://help.eclipse.org/mars/nav/1">Java development</a></li>
 	    	<li>All online <a href="http://help.eclipse.org/mars/index.jsp">Documentation</a></li>
+	    	<li>What's new and noteworthy in <a href="/mars/noteworthy/">Eclipse Mars</a></li>
 	    </ul>
 
     </div>
     <div class="col-md-6 four gs-item">
       <div class="circle">4</div>
-      <h1>Getting Help</h1>
-      <ul>
-				<li>There are many online sources of help in the Eclipse community. First thing to do is <a href="https://dev.eclipse.org/site_login/createaccount.php">create an account</a> so you can use them.</li>
-	    	<li>Our <a href="https://www.eclipse.org/forums/">forums</a> are great places to ask questions, especially the <a href="http://www.eclipse.org/forums/index.php/f/89/">newcomer forum</a>.</li>
-	    	<li>Open bugs and feature requests in <a href="https://bugs.eclipse.org/bugs/">bugzilla</a>.</li>
-	    	<li><a href="https://wiki.eclipse.org/IRC">IRC channels</a> are active for some projects.</li>
-	   		<li>Project <a href="https://dev.eclipse.org/mailman/listinfo">mailing list</a> are good source of what is going on in the projects.</li>
+      <h1>Get Help</h1>
+      <p>There are many sources of help in the Eclipse community and ecosystem.</p>
+	    	<ul>
+			<li>Ask questions on project <a href="https://www.eclipse.org/forums/">forums</a>; if you're not sure where to look, start with the <a href="http://www.eclipse.org/forums/index.php/f/89/">newcomer forum</a></li>
+	    	<li>Open bug reports and feature requests in <a href="<?php echo $bugzillaLink; ?>">Eclipse Bugzilla</a></li>
+	    	<li>Connect live with project developers <a href="https://wiki.eclipse.org/IRC">via IRC</a></li>
+	    	<li>Find companies that provide <a href="http://marketplace.eclipse.org/category/markets/training-consulting/title">paid support</a></li>
+	   		<li>Investigate <a href="http://lts.eclipse.org">Long Term Support</a> options</li>
      	</ul>
     </div>
     </div>
