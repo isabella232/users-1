@@ -29,6 +29,10 @@
   $Packages->setPrefixPackage('release');
   $standard = $Packages->getPackages('java-package');
 
+  // Provide as helpful a link as possible into Bugzilla.
+  // Assume that the user is concerned with IDE bugs and point them to the EPP product.
+  $bugzillaLink = "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=EPP";
+
   // Place your html content in a file called content/en_pagename.php
   ob_start();
   include("content/en_" . $App->getScriptName());

@@ -10,14 +10,11 @@
  *    Christopher Guindon (Eclipse Foundation) - Initial implementation
  *    Wayne Beaton (Eclipse Foundation) - Minor changes
  *******************************************************************************/
-
-// Provide as helpful a link as possible into Bugzilla.
-// Assume that the user is concerned with IDE bugs and point them to the EPP product.
-$bugzillaLink = "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=EPP";
 ?>
 
 <div class="timeline">
   <div class="row">
+
     <div class="col-md-6 one gs-item">
       <div class="circle">1</div>
       <h1 class="fw-600">Get Started</h1>
@@ -28,7 +25,8 @@ $bugzillaLink = "https://bugs.eclipse.org/bugs/enter_bug.cgi?product=EPP";
       <p> Eclipse also has pre-defined packages based on the type of development you want to do with Eclipse.</p>
       <p><a href="/downloads/" class="btn btn-warning">Download Packages </a></p>
     </div>
-    <div class="col-md-6 two  gs-item">
+
+    <div class="col-md-6 two gs-item">
       <div class="circle">2</div>
       <h1>Extend Eclipse</h1>
       <p>Eclipse Marketplace is a great source of plug-ins and product that you can add to Eclipse.</p>
