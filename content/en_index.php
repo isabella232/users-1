@@ -18,12 +18,8 @@
     <div class="col-md-6 one gs-item">
       <div class="circle">1</div>
       <h1 class="fw-600">Get Started</h1>
-      <p>You can download the standard version of Eclipse that contains the basic bits
-      for any Java developer to start coding in Java&trade;.</p>
-      <p><a href="<?php print $standard['url'];?>" class="btn btn-warning">Download</a></p>
-      <hr/>
-      <p> Eclipse also has pre-defined packages based on the type of development you want to do with Eclipse.</p>
-      <p><a href="/downloads/" class="btn btn-warning">Download Packages </a></p>
+		<p>Download and install the Eclipse IDE.</p>
+		<p><a href="/downloads/" class="btn btn-warning">Download Eclipse IDE</a></p>
     </div>
 
     <div class="col-md-6 two gs-item">
