@@ -72,9 +72,9 @@
     <div class="col-md-6 three gs-item">
       <div class="circle">3</div>
       <h1>Read Doc</h1>
-      <p>Documentation is a great resource to get you started with Eclipse.</p>
+      <p>Documentation is a great resource to get you started with the Eclipse IDE.</p>
       <ul>
-        <li>Getting Started with the <a href="http://help.eclipse.org/mars/nav/0">Eclipse Workbench</a></li>
+        <li>Getting Started with the <a href="http://help.eclipse.org/mars/nav/0">Eclipse IDE User Guide</a></li>
         <li>Getting Started with <a href="http://help.eclipse.org/mars/nav/1">Java development</a></li>
         <li>All online <a href="http://help.eclipse.org/mars/index.jsp">Documentation</a></li>
         <li>What's new and noteworthy in <a href="/mars/noteworthy/">Eclipse Mars</a></li>
