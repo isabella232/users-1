@@ -89,7 +89,7 @@
         <li>Ask questions on project <a href="https://www.eclipse.org/forums/">forums</a>; if you're not sure where to look, start with the <a href="http://www.eclipse.org/forums/index.php/f/89/">newcomer forum</a></li>
         <li>Open bug reports and feature requests in <a href="<?php print $bugzillaLink; ?>">Eclipse Bugzilla</a></li>
         <li>Connect live with project developers <a href="https://wiki.eclipse.org/IRC">via IRC</a></li>
-        <li>Find companies that provide <a href="http://marketplace.eclipse.org/category/markets/training-consulting/title">paid support</a></li>
+        <li>Find companies that provide <a href="http://marketplace.eclipse.org/category/markets/training-consulting/title">training and consulting</a></li>
         <li>Investigate <a href="http://lts.eclipse.org">Long Term Support</a> options</li>
       </ul>
     </div>
