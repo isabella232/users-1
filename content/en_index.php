@@ -90,7 +90,7 @@
         <li>Open bug reports and feature requests in <a href="<?php print $bugzillaLink; ?>">Eclipse Bugzilla</a></li>
         <li>Connect live with project developers <a href="https://wiki.eclipse.org/IRC">via IRC</a></li>
         <li>Find companies that provide <a href="http://marketplace.eclipse.org/category/markets/training-consulting/title">training and consulting</a></li>
-        <li>Investigate <a href="http://lts.eclipse.org">Long Term Support</a> options</li>
+        <li>Investigate paid support options with <a href="http://lts.eclipse.org">Long Term Support</a>.</li>
       </ul>
     </div>
 
