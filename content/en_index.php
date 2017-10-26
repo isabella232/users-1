@@ -78,6 +78,7 @@
         <li>Getting Started with <a href="http://help.eclipse.org/oxygen/nav/1">Java development</a></li>
         <li>All online <a href="http://help.eclipse.org/oxygen/index.jsp">Documentation</a></li>
         <li>What's new and noteworthy in <a href="/oxygen/noteworthy/">Eclipse Oxygen</a></li>
+        <li><a href="content/eclipse-ide-keybindings.pdf">Eclipse IDE Keybindings</a></li>
       </ul>
     </div>
 
